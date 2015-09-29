@@ -17,6 +17,11 @@ app.config(['AnimationModelProvider', '$stateProvider', '$urlRouterProvider', fu
             url: "/home",
             controller: "ViewHomeController",
             templateUrl: "html/views/view_home.html"
+        })
+        .state('cityguides', {
+            url: "/cityguides",
+            controller: "ViewCityguidesController",
+            templateUrl: "html/views/view_cityguides.html"
         });
 
 
