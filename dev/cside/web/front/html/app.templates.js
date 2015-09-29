@@ -7,7 +7,12 @@ angular.module('Bootstrap').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('html/views/view_cityguides.html',
-    "<div view-cityguides id=\"view_cityguides\" class=\"view-cityguides\">cityguides<p class=\"button\" ng-click=\"pathTo('home')\">Back</p><p class=\"button\" ng-click=\"pathTo('book')\">Book</p><p class=\"button\" ng-click=\"pathTo('book',{city:'berlin'})\">Berlin</p><p class=\"button\" ng-click=\"pathTo('book',{city:'paris'})\">Paris</p></div>"
+    "<div view-cityguides id=\"view_cityguides\" class=\"view-cityguides\">cityguides<p class=\"button\" ng-click=\"pathTo('home')\">Back</p><p class=\"button\" ng-click=\"pathTo('exceptionalcase')\">Exceptional Case</p><p class=\"button\" ng-click=\"pathTo('book',{city:'berlin'})\">Berlin</p><p class=\"button\" ng-click=\"pathTo('book',{city:'paris'})\">Paris</p></div>"
+  );
+
+
+  $templateCache.put('html/views/view_exceptionalcase.html',
+    "<div view-exceptionalcase id=\"view_exceptionalcase\" class=\"view-exceptionalcase\">Exceptionalcase</div>"
   );
 
 
