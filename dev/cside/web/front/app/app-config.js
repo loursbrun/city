@@ -22,7 +22,13 @@ app.config(['AnimationModelProvider', '$stateProvider', '$urlRouterProvider', fu
             url: "/cityguides",
             controller: "ViewCityguidesController",
             templateUrl: "html/views/view_cityguides.html"
+        })
+        .state('book', {
+            url: "/book",
+            controller: "ViewBookController",
+            templateUrl: "html/views/view_book.html"
         });
+
 
 
 }]);

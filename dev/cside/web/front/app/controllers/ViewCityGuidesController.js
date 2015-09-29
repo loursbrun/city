@@ -16,4 +16,10 @@ app.controller("ViewCityguidesController", ['$scope', '$log', 'DeviceDetector', 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
 
 
+
+
+
+
+
+
 }]);
