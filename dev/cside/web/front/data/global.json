@@ -13,5 +13,11 @@
         "default":{
             "path":"/home"
         }
+    },
+    "videos": {
+        "default_video_id": "1031383"
+    },
+    "config": {
+        "video_player_url": "http://player.louisvuitton.com/embed/"
     }
 }
