@@ -5,12 +5,46 @@
 // @author Didier Brun
 //
 
-app.controller("ViewHomeController", ['$scope', '$log', 'DeviceDetector', function ViewHomeController($scope, $log, device)
+app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetector', function ViewHomeController($scope, $window, $log, device)
 {
+
+
+
+
+
+
 
     $log.log("View Home Controller");
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
+
+    $scope.showBtn = function($scope, element, attrs){
+
+
+    };
+
+    $scope.animSkipBtnOn = function(scope, element, attrs){
+
+
+        var skipBtn =  angular.element(document.querySelector(".skip-btn"));
+        TweenMax.to(skipBtn,0.5,{delay:0,opacity:"1",force3D:true});
+
+        var arrowRight =  angular.element(document.querySelector(".arrow-right"));
+        TweenMax.to(arrowRight,0.2,{delay:0,x:"50%",force3D:true});
+        TweenMax.to(arrowRight,0.2,{delay:0.2,x:"-50%",force3D:true});
+
+
+
+    };
+
+    $scope.animSkipBtnOff = function(scope, element, attrs){
+
+        var skipBtn =  angular.element(document.querySelector(".skip-btn"));
+        TweenMax.to(skipBtn,0.5,{delay:0,opacity:"0.4",force3D:true});
+    }
+
+
+
 
 
 }]);

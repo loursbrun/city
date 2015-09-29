@@ -22,7 +22,7 @@ angular.module('Bootstrap').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('html/views/view_home.html',
-    "<div view-home id=\"view_home\" class=\"view-home\"><div view-video id=\"view_video\" class=\"view-video\"><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\"><div class=\"arrow-right\"></div><p ng-click=\"pathTo('cityguides')\">Skip the video</p></div></div>"
+    "<div view-home id=\"view_home\" class=\"view-home\"><div view-video id=\"view_video\" class=\"view-video\"><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\"><div class=\"arrow-right\"></div><p ng-click=\"pathTo('cityguides')\">Skip the video</p></div></div>"
   );
 
 }]);
