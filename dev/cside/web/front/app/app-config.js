@@ -28,6 +28,11 @@ app.config(['AnimationModelProvider', '$stateProvider', '$urlRouterProvider', fu
             controller: "ViewExceptionalcaseController",
             templateUrl: "html/views/view_exceptionalcase.html"
         })
+        .state('boxset', {
+            url: "/boxset",
+            controller: "ViewBoxsetController",
+            templateUrl: "html/views/view_boxset.html"
+        })
         .state('book', {
             url: "/book/:city",
             controller: "ViewBookController",
