@@ -12,7 +12,7 @@ angular.module('Bootstrap').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('html/views/view_cityguides.html',
-    "<div view-cityguides id=\"view_cityguides\" class=\"view-cityguides\">cityguides<p class=\"button\" ng-click=\"pathTo('home')\">Back</p><p class=\"button\" ng-click=\"pathTo('exceptionalcase')\">Exceptional Case</p><p class=\"button\" ng-click=\"pathTo('boxset')\">Boxe Set</p><p class=\"button\" ng-click=\"pathTo('book',{city:'berlin'})\">Berlin</p><p class=\"button\" ng-click=\"pathTo('book',{city:'paris'})\">Paris</p></div>"
+    "<div view-cityguides id=\"view_cityguides\" class=\"view-cityguides\"><div id=\"head\"><h1 id=\"logo\">LOUIS VUITTON CITY GUIDES</h1><p class=\"description\">Beautifully illustrated with exclusive photographs,<br>each year the Louis Vuitton City Guides explore new urban destinations.<br>Refreshed with up-to-date content, this collection remains in a class by itself,<br>now covering 21 of the world’s greatest cities.</p><a id=\"pdf\" class=\"button\" href=\"http://localhost/Fabien/city_guide/deploy/deploy/pdf/brochure_EN.pdf\" target=\"_blank\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\"><div class=\"arrow-right\"></div>SEE THE BROCHURE</a></div><p class=\"button\" ng-click=\"pathTo('home')\">Back</p><p class=\"button\" ng-click=\"pathTo('exceptionalcase')\">Exceptional Case</p><p class=\"button\" ng-click=\"pathTo('boxset')\">Boxe Set</p><p class=\"button\" ng-click=\"pathTo('book',{city:'berlin'})\">Berlin</p><p class=\"button\" ng-click=\"pathTo('book',{city:'paris'})\">Paris</p></div>"
   );
 
 
@@ -22,7 +22,7 @@ angular.module('Bootstrap').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('html/views/view_home.html',
-    "<div view-home id=\"view_home\" class=\"view-home\"><div view-video id=\"view_video\" class=\"view-video\"><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\"><div class=\"arrow-right\"></div><p ng-click=\"pathTo('cityguides')\">Skip the video</p></div></div>"
+    "<div view-home id=\"view_home\" class=\"view-home\"><div view-video id=\"view_video\" class=\"view-video\"><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\" ng-click=\"pathTo('cityguides')\"><div class=\"arrow-right\"></div><p>Skip the video</p></div></div>"
   );
 
 }]);

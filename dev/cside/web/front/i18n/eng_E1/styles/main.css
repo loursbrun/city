@@ -136,9 +136,6 @@ html {
 
 .view-home {
   background-color: black;
-  position: absolute;
-  height: 100%;
-  width: 100%;
 }
 .view-home .skip-btn {
   position: absolute;
@@ -183,13 +180,70 @@ html {
   top: initial;
   left: initial;
   width: 100%;
-  height: auto;
   color: black;
   background-color: black;
 }
 
 .view-cityguides {
-  background-color: red;
+  height: auto;
+}
+.view-cityguides #head {
+  padding: 40px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.view-cityguides #logo {
+  font-size: 35px;
+  font-family: "FuturaPTHeavy-Reg", sans-serif;
+  font-size: 21px;
+  text-align: center;
+  margin: 15px auto;
+  color: #4f332e;
+}
+.view-cityguides .description {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  margin: 15px auto;
+  color: #4f332e;
+}
+.view-cityguides #pdf {
+  position: relative;
+  left: 50%;
+  margin: 15 auto;
+  opacity: 1;
+  color: white;
+  background-color: #4f332e;
+  -ms-transform: translate(-50%, 0);
+  /* IE 9 */
+  -webkit-transform: translate(-50%, 0);
+  /* Safari */
+  transform: translate(-50%, 0);
+}
+.view-cityguides .arrow-right {
+  position: relative;
+  float: left;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid white;
+  margin-right: 5px;
+  margin-top: 4px;
+  pointer-events: none;
+}
+.view-cityguides a {
+  font-family: "LouisVuitton-N", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  pointer-events: none;
 }
 
 .view_book {
