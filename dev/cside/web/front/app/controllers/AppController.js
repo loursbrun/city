@@ -24,8 +24,8 @@ app.controller ("AppController", ['$log', '$scope', '$state', 'AnimationModel', 
     }
 
 
-    $scope.pathTo = function(path){
-        $state.go(path);
+    $scope.pathTo = function(path,attrs){
+        $state.go(path,attrs);
     }
 
 

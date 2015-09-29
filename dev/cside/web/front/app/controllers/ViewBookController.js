@@ -8,10 +8,17 @@
 // @author Fabien Brun
 //
 
-app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector', function ViewBookController($scope, $log, device)
+app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','$state', function ViewBookController($scope, $log, device, $state)
 {
 
     $log.log("View Book Controller");
+
+
+
+    $log.log($state.params.city) ;
+
+
+
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
 

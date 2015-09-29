@@ -24,7 +24,7 @@ app.config(['AnimationModelProvider', '$stateProvider', '$urlRouterProvider', fu
             templateUrl: "html/views/view_cityguides.html"
         })
         .state('book', {
-            url: "/book",
+            url: "/book/:city",
             controller: "ViewBookController",
             templateUrl: "html/views/view_book.html"
         });
