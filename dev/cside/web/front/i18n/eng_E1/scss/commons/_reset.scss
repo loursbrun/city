@@ -1,0 +1,33 @@
+//
+// Reset
+//
+
+span, div, p, h1, h2
+{
+  margin:0;
+  padding:0;
+  border:0;
+  font:inherit;
+  font-size:100%;
+  vertical-align: baseline;
+}
+
+ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+
+  overflow-y:visible;
+}

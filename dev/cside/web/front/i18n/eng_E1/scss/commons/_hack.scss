@@ -1,0 +1,10 @@
+//
+// Hack
+//
+
+// Supprime le liseré blanc sous le header sur tablettes
+.tablet {
+  #header {
+    @include transform(none);
+  }
+}

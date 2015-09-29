@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap",
+  "version": "2.1.1",
+  "dependencies": {
+    "angular": "~1.2.26",
+    "angular-ui-router": "~0.2.13",
+    "angular-animate": "~1.2.26",
+    "angular-touch": "~1.2.26",
+    "requirejs": "~2.1.20",
+    "greensock": "~1.13.2",
+    "bbs-lv-modules": "https://bigbossstudio.git.beanstalkapp.com/bbs-lv-modules.git#~0.2.0",
+    "bbs-core-modules": "https://bigbossstudio.git.beanstalkapp.com/bbs-core-modules.git#~0.10.2"
+  }
+}

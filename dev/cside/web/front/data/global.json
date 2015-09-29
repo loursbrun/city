@@ -1,0 +1,17 @@
+{
+    "routes":{
+        "home":{
+            "path":"/home",
+            "template":"html/views/view_home.html",
+            "controller":"ViewHomeController"
+        },
+        "product":{
+            "path":"/product",
+            "template":"html/views/view_product.html",
+            "controller":"ViewProductController"
+        },
+        "default":{
+            "path":"/home"
+        }
+    }
+}

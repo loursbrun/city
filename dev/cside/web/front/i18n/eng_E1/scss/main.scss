@@ -1,0 +1,26 @@
+//
+// Main CSS
+//
+
+//
+// Compass imports
+//
+@import "compass/css3";
+@import "compass/css3/user-interface";
+
+//
+// Common imports
+//
+@import "commons/reset";
+@import "commons/hack";
+@import "commons/paths";
+@import "commons/fonts";
+@import "commons/mixins";
+@import "commons/layout";
+
+//
+// Views imports
+//
+@import "views/shared";
+@import "views/view_home";
+@import "views/view_product";

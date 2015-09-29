@@ -1,0 +1,38 @@
+//
+// View Home
+//
+
+.view-home
+{
+  position:absolute;
+  background:#eee;
+  width:100%;
+  height:100%;
+  text-transform: uppercase;
+
+  .home-pannel {
+
+    display:table;
+    width:100%;
+    height:100%;
+
+    .home-pannel-cell {
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+
+      .home-pannel-content {
+        display: inline-block;
+        text-align: center;
+        background: grey;
+        padding: 50px;
+        color: white;
+        @include border-radius(10px);
+
+        .button {
+          margin-top:20px;
+        }
+      }
+    }
+  }
+}

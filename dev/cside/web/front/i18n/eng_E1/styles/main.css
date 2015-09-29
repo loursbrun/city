@@ -1,0 +1,258 @@
+span, div, p, h1, h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  overflow-y: visible;
+}
+
+.tablet #header {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  min-height: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+.page #animationContent {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  max-width: 1420px;
+  overflow: hidden;
+}
+
+.page .animation_container {
+  height: 100%;
+}
+
+.page {
+  height: 100% !important;
+}
+
+.animation {
+  height: 100%;
+  position: relative;
+}
+
+.phone #header {
+  position: absolute;
+  width: 100%;
+}
+.phone .page #animationContent {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+.phone .page #back-btn {
+  position: absolute;
+  top: 50px;
+}
+
+.lv-application {
+  width: 100%;
+  height: auto;
+}
+
+.layout-auto .page #animationContent {
+  height: auto;
+}
+.phone .layout-auto .page #back-btn {
+  position: absolute;
+  top: 50px;
+}
+.layout-auto .content {
+  height: auto !important;
+}
+.layout-auto #app {
+  width: 100%;
+  height: auto;
+}
+.layout-auto #footer {
+  margin-top: -70px;
+  bottom: auto !important;
+}
+.layout-auto.phone .page #back-btn {
+  position: absolute;
+  top: 50px;
+}
+.layout-auto.phone .page #animationContent {
+  padding-top: 40px !important;
+  padding-bottom: 0;
+}
+.layout-auto.phone #footer {
+  margin-top: auto !important;
+}
+
+.button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  pointer-events: all;
+  display: inline-block;
+  background: #555;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+.view-home {
+  position: absolute;
+  background: #eee;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+}
+.view-home .home-pannel {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.view-home .home-pannel .home-pannel-cell {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.view-home .home-pannel .home-pannel-cell .home-pannel-content {
+  display: inline-block;
+  text-align: center;
+  background: grey;
+  padding: 50px;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.view-home .home-pannel .home-pannel-cell .home-pannel-content .button {
+  margin-top: 20px;
+}
+
+.view-product {
+  position: relative;
+  background: #eee;
+  height: auto;
+}
+.view-product .home-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  pointer-events: all;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 20px;
+  top: 30px;
+  background-image: url(../../../assets/images/home-icon.png);
+  background-size: contain;
+}
+.view-product .title {
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+.view-product .title h2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+.view-product .products {
+  background: white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.view-product .products ol li {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  pointer-events: all;
+  color: white;
+  width: 120px;
+  height: 120px;
+  background: orange;
+  display: inline-block;
+  margin: 5px;
+}
+
+.product-detail-view {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  pointer-events: none;
+}
+.product-detail-view .product-detail {
+  pointer-events: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+.product-detail-view .product-detail .close-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  pointer-events: all;
+  width: 30px;
+  height: 30px;
+  background: black;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
