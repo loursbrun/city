@@ -223,7 +223,7 @@ html {
   /* Safari */
   transform: translate(-50%, 0);
 }
-.view-cityguides .arrow-white {
+.view-cityguides .arrow-white, .view-cityguides .arrow-white-pdf {
   position: relative;
   float: left;
   width: 0;
@@ -235,7 +235,7 @@ html {
   margin-top: 4px;
   pointer-events: none;
 }
-.view-cityguides .arrow-brown {
+.view-cityguides .arrow-brown, .view-cityguides .arrow-brown-first, .view-cityguides .arrow-brown-second {
   position: relative;
   float: left;
   width: 0;

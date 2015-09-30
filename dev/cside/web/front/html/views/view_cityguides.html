@@ -4,13 +4,10 @@
     <div id="head" anim-arrow>
         <h1 id="logo" >LOUIS VUITTON CITY GUIDES</h1>
         <p class="description">Beautifully illustrated with exclusive photographs,<br>each year the Louis Vuitton City Guides explore new urban destinations.<br>Refreshed with up-to-date content, this collection remains in a class by itself,<br>now covering 21 of the world’s greatest cities.</p>
-        <a id="pdf" class="button"   href="http://localhost/Fabien/city/deploy/deploy/assets/pdf/brochure_EN.pdf" target="_blank"  ng-mouseenter="arrowMouseOver()" ng-mouseleave="arrowMouseOut()"><div class="arrow-white"></div><p>SEE THE BROCHURE</p></a>
-        <a class="btnHeaderFirst"><div class="arrow-brown"></div><p>EXPEPTIONAL CASE <br/> OF ALL CITIES</p></a>
-        <a class="btnHeaderSecond"><div class="arrow-brown"></div><p>BOX SET WITH A CHOISE <br/> OF 5 CITIES</p></a>
+        <a id="pdf" class="button"   href="http://localhost/Fabien/city/deploy/deploy/assets/pdf/brochure_EN.pdf" target="_blank"  ng-mouseenter="arrowMouseOver('arrow-white-pdf')" ng-mouseleave="arrowMouseOut('arrow-white-pdf')"><div class="arrow-white-pdf"></div><p>SEE THE BROCHURE</p></a>
+        <a class="btnHeaderFirst" ng-mouseenter="arrowMouseOver('arrow-brown-first')" ng-mouseleave="arrowMouseOut('arrow-brown-first')"><div class="arrow-brown-first"></div><p>EXPEPTIONAL CASE <br/> OF ALL CITIES</p></a>
+        <a class="btnHeaderSecond" ng-mouseenter="arrowMouseOver('arrow-brown-second')" ng-mouseleave="arrowMouseOut('arrow-brown-second')"><div class="arrow-brown-second"></div><p>BOX SET WITH A CHOISE <br/> OF 5 CITIES</p></a>
     </div>
-
-
-
 
 
 
@@ -20,6 +17,8 @@
     <p class="button" ng-click="pathTo('boxset')">Boxe Set</p>
     <p class="button" ng-click="pathTo('book',{city:'berlin'})">Berlin</p>
     <p class="button" ng-click="pathTo('book',{city:'paris'})">Paris</p>
+
+
 
 
 </div>

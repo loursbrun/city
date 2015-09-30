@@ -54,7 +54,7 @@ $baseFontColor : #4f332e;
   }
 
 
-  .arrow-white {
+  .arrow-white, .arrow-white-pdf {
     position: relative;
     float: left;
     width: 0;
@@ -68,7 +68,7 @@ $baseFontColor : #4f332e;
 
   }
 
-  .arrow-brown {
+  .arrow-brown , .arrow-brown-first , .arrow-brown-second{
     position: relative;
     float: left;
     width: 0;
@@ -106,7 +106,7 @@ $baseFontColor : #4f332e;
       pointer-events: none;
 
     }
-    
+
   }
 
   .btnHeaderFirst{
