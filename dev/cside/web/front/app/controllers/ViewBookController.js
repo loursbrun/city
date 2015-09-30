@@ -25,4 +25,20 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','$state
 
 
 
+
+
+
+
+
+
+/*
+    .page #animationContent {
+    padding-top: 50px;
+}
+
+*/
+
+
+
+
 }]);
