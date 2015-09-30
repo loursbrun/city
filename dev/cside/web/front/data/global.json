@@ -5,10 +5,20 @@
             "template":"html/views/view_home.html",
             "controller":"ViewHomeController"
         },
-        "product":{
-            "path":"/product",
-            "template":"html/views/view_product.html",
-            "controller":"ViewProductController"
+        "cityguides":{
+            "path":"/cityguides",
+            "template":"html/views/view_cityguides.html",
+            "controller":"ViewCityguidesController"
+        },
+        "exceptionalcase":{
+            "path":"/exceptionalcase",
+            "template":"html/views/view_exceptionalcase.html",
+            "controller":"ViewExceptionalcaseController"
+        },
+        "boxset":{
+            "path":"/boxset",
+            "template":"html/views/view_boxset.html",
+            "controller":"ViewBoxsetController"
         },
         "default":{
             "path":"/home"

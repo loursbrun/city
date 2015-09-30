@@ -25,6 +25,30 @@ app.directive('animArrow', ['$log', 'DeviceDetector', function ($log, $device) {
             }
 
 
+
+
+            scope.animSkipBtnOn = function(){
+
+
+                var skipBtn =  angular.element(document.querySelector(".skip-btn"));
+                TweenMax.to(skipBtn,0.5,{delay:0,opacity:"1",force3D:true});
+
+                var arrowRight =  angular.element(document.querySelector(".arrow-right"));
+                TweenMax.to(arrowRight,0.2,{delay:0,x:"50%",force3D:true});
+                TweenMax.to(arrowRight,0.2,{delay:0.2,x:"-50%",force3D:true});
+
+
+
+            };
+
+            scope.animSkipBtnOff = function(){
+
+                var skipBtn =  angular.element(document.querySelector(".skip-btn"));
+                TweenMax.to(skipBtn,0.5,{delay:0,opacity:"0.4",force3D:true});
+            }
+
+
+
         }
 
 
