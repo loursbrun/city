@@ -1,0 +1,71 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M329.143 512q0 14.857-10.857 25.714l-256 256q-10.857 10.857-25.714 10.857t-25.714-10.857-10.857-25.714v-512q0-14.857 10.857-25.714t25.714-10.857 25.714 10.857l256 256q10.857 10.857 10.857 25.714z"
+				],
+				"width": 366,
+				"tags": [
+					"caret-right",
+					"right",
+					"arrow",
+					"next"
+				],
+				"grid": 14
+			},
+			"properties": {
+				"order": 1,
+				"id": 194,
+				"prevSize": 28,
+				"code": 58880,
+				"name": "caret-right",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M365.714 256v512q0 14.857-10.857 25.714t-25.714 10.857-25.714-10.857l-256-256q-10.857-10.857-10.857-25.714t10.857-25.714l256-256q10.857-10.857 25.714-10.857t25.714 10.857 10.857 25.714z"
+				],
+				"width": 366,
+				"tags": [
+					"caret-left",
+					"previous",
+					"arrow",
+					"left"
+				],
+				"grid": 14
+			},
+			"properties": {
+				"order": 2,
+				"id": 193,
+				"prevSize": 28,
+				"code": 58881,
+				"name": "caret-left",
+				"ligatures": ""
+			}
+		}
+	],
+	"height": 1024,
+	"metadata": {},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880
+		},
+		"imagePref": {},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16
+	}
+}
