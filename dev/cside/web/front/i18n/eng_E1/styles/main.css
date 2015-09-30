@@ -58,7 +58,7 @@ html {
 }
 
 .page .animation_container {
-  height: 100%;
+  overflow: scroll;
 }
 
 .page {
@@ -185,7 +185,7 @@ html {
 }
 
 .view-cityguides {
-  height: auto;
+  overflow: scroll;
   background-color: #f7f7f7;
 }
 .view-cityguides #head {
@@ -296,6 +296,31 @@ html {
   width: 150px;
   font-weight: normal;
   font-size: 13px;
+}
+.view-cityguides .book-container {
+  margin-left: 41px;
+}
+.view-cityguides .coverflow li {
+  width: 120px;
+  padding: 3.75px 7.5px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.view-cityguides .coverflow li img {
+  display: block;
+  width: auto;
+  max-height: 120px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.view-cityguides .coverflow li .city {
+  display: block;
+  margin: 0 auto 15px auto;
+  min-height: 35px;
+  font-family: "FuturaPTHeavy-Reg", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
 }
 
 .view_book {
