@@ -54,7 +54,7 @@ $baseFontColor : #4f332e;
   }
 
 
-  .arrow-right {
+  .arrow-white {
     position: relative;
     float: left;
     width: 0;
@@ -62,6 +62,20 @@ $baseFontColor : #4f332e;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
     border-left: 4px solid white;
+    margin-right: 5px;
+    margin-top: 4px;
+    pointer-events: none;
+
+  }
+
+  .arrow-brown {
+    position: relative;
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid $baseFontColor;
     margin-right: 5px;
     margin-top: 4px;
     pointer-events: none;
@@ -89,6 +103,49 @@ $baseFontColor : #4f332e;
       padding: 0;
       width: 110px;
       font-weight: bold;
+      pointer-events: none;
+
+    }
+    
+  }
+
+  .btnHeaderFirst{
+    position: absolute;
+    left: 10px;
+    width: 120px;
+    background-color: white;
+    top: 55px;
+    cursor: pointer;
+
+    p {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      width: 120px;
+      font-weight: normal;
+      font-size: 13px;
+      pointer-events: none;
+
+
+    }
+
+  }
+
+  .btnHeaderSecond{
+    position: absolute;
+    left: 10px;
+    width: 150px;
+    background-color: white;
+    top: 100px;
+    cursor: pointer;
+
+    p {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      width: 150px;
+      font-weight: normal;
+      font-size: 13px;
 
     }
 
