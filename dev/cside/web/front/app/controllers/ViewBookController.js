@@ -19,26 +19,24 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','$state
 
 
 
-
     device.setLayout(DeviceDetector.LAYOUT_FILL);
 
 
 
+    // Rescale img Full size
 
+    //var imgSlide1Height =  angular.element(document.querySelector(".slide1"));
+    //TweenMax.to(imgSlide1Height,0.5,{delay:0,opacity:"1",force3D:true});
 
-
-
-
-
-
-/*
-    .page #animationContent {
-    padding-top: 50px;
-}
-
-*/
 
 
 
 
 }]);
+
+
+
+
+
+
+

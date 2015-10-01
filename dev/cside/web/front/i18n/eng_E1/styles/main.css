@@ -336,7 +336,7 @@ html {
   width: 50%;
   height: 100%;
   left: 0;
-  background-color: green;
+  background-color: #f7f7f7;
 }
 @media screen and (max-width: 768px) {
   .view-book .book-container {
@@ -349,8 +349,8 @@ html {
   position: absolute;
   width: 50%;
   height: 100%;
-  background-color: red;
   right: 0;
+  background-size: contain;
 }
 @media screen and (max-width: 768px) {
   .view-book .slideshow {
@@ -360,11 +360,101 @@ html {
     padding-top: -50px;
   }
 }
+.view-book .slideshow #slide1 {
+  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/beijing/032105h.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.view-book .slideshow #slide2 {
+  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/beijing/032106h.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.view-book .slideshow #slide3 {
+  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/beijing/032107h.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.view-book .slideshow #slide4 {
+  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/beijing/032109h.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.view-book .slideshow img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 @media screen and (max-width: 768px) {
   .page #animationContent {
     padding-top: 0px;
     padding-bottom: 0;
+  }
+}
+
+.slide {
+  position: absolute;
+}
+
+.slide:nth-child(1) {
+  -webkit-animation: fade 24s 18s infinite;
+  z-index: 100;
+}
+
+.slide:nth-child(2) {
+  -webkit-animation: fade 24s 12s infinite;
+  z-index: 100;
+}
+
+.slide:nth-child(3) {
+  -webkit-animation: fade 24s 6s infinite;
+  z-index: 100;
+}
+
+.slide:nth-child(4) {
+  -webkit-animation: fade 24s 0s infinite;
+  z-index: 100;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 

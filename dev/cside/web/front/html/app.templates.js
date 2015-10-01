@@ -2,7 +2,7 @@ angular.module('Bootstrap').run(['$templateCache', function($templateCache) {
   'use strict';
 
   $templateCache.put('html/views/view_book.html',
-    "<div view-book id=\"view_book\" class=\"view-book\"><div class=\"book-container\">rvrvrvrv</div><div class=\"slideshow\">rvrvrv</div></div>"
+    "<div view-book id=\"view_book\" class=\"view-book\"><div class=\"book-container\">rvrvrvrv</div><div class=\"slideshow\"><div id=\"slide1\" class=\"slide\"></div><div id=\"slide2\" class=\"slide\"></div><div id=\"slide3\" class=\"slide\"></div><div id=\"slide4\" class=\"slide\"></div></div></div>"
   );
 
 
