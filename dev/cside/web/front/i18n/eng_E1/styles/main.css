@@ -345,11 +345,45 @@ html {
     top: 50%;
   }
 }
-.view-book .book-container .content-book {
+.view-book .content-book {
   position: relative;
-  width: 500px;
-  height: 500px;
-  background-image: red;
+  width: 80%;
+  margin-left: 10%;
+  top: 30%;
+  text-align: left;
+}
+.view-book .content-book h1 {
+  font-family: "FuturaPTHeavy-Reg", sans-serif;
+  font-size: 32px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4f332e;
+  margin-right: 20%;
+}
+.view-book .content-book h1 span {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url("http://localhost/Fabien/city/deploy/deploy//assets/images/common/badge.png");
+  background-size: 50px 50px;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  background-position: top;
+}
+.view-book .content-book p {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "LouisVuitton-N", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.view-book .content-book .title-book {
+  position: relative;
+  width: 100%;
+  height: 70px;
 }
 .view-book .slideshow {
   position: absolute;
@@ -402,7 +436,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
 }
-.view-book .arrow-brown, .view-book .arrow-brown-first, .view-book .arrow-brown-second, .view-book .arrow-brown-third {
+.view-book .arrow-brown, .view-book .arrow-brown-first, .view-book .arrow-brown-second, .view-book .arrow-brown-third, .view-book .arrow-brown-fourth {
   position: relative;
   float: left;
   width: 0;
