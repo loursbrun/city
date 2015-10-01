@@ -2,7 +2,7 @@ angular.module('Bootstrap').run(['$templateCache', function($templateCache) {
   'use strict';
 
   $templateCache.put('html/views/view_book.html',
-    "<div view-book id=\"view_book\" class=\"view-book\"><div class=\"book-container\">rvrvrvrv</div><div class=\"slideshow\"><div id=\"slide1\" class=\"slide\"></div><div id=\"slide2\" class=\"slide\"></div><div id=\"slide3\" class=\"slide\"></div><div id=\"slide4\" class=\"slide\"></div></div></div>"
+    "<div view-book id=\"view_book\" class=\"view-book\"><div class=\"book-container\" anim-arrow><div class=\"menu-container\"><a class=\"btnHeaderFirst\" ng-click=\"pathTo('cityguides')\" ng-mouseenter=\"arrowMouseOver('arrow-brown-first')\" ng-mouseleave=\"arrowMouseOut('arrow-brown-first')\"><div class=\"arrow-brown-first\"></div><p>RETURN TO THE COLLECTION</p></a> <a class=\"btnHeaderSecond\" ng-click=\"pathTo('exceptionalcase')\" ng-mouseenter=\"arrowMouseOver('arrow-brown-second')\" ng-mouseleave=\"arrowMouseOut('arrow-brown-second')\"><div class=\"arrow-brown-second\"></div><p>EXCEPTIONAL CASE<br>OF ALL CITIES</p></a> <a class=\"btnHeaderThird\" ng-click=\"pathTo('boxset')\" ng-mouseenter=\"arrowMouseOver('arrow-brown-third')\" ng-mouseleave=\"arrowMouseOut('arrow-brown-third')\"><div class=\"arrow-brown-third\"></div><p>BOX SET WITH A CHOISE<br>OF 5 CITIES</p></a></div><div class=\"content-book\">dfvfdvdv</div></div><div class=\"slideshow\"><div id=\"slide1\" class=\"slide\"></div><div id=\"slide2\" class=\"slide\"></div><div id=\"slide3\" class=\"slide\"></div><div id=\"slide4\" class=\"slide\"></div></div></div>"
   );
 
 
