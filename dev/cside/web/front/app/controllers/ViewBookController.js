@@ -16,6 +16,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
     $log.log($state.params.city) ;
+    $scope.book_page = $state.params.city;
 
 
 
@@ -52,6 +53,8 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
             $scope.book_imgs_6 = $scope.books_object[i].imgs[5] ;
             $scope.book_imgs_7 = $scope.books_object[i].imgs[6] ;
             $scope.book_imgs_8 = $scope.books_object[i].imgs[7] ;
+            $scope.book_description = model.localized.labels_dictionaries[$scope.book_page].description ;
+            $log.log("Localised:" +  $scope.book_description) ;
 
 
 
@@ -74,9 +77,11 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     $log.log("book_imgs_4 :" +  $scope.book_imgs_4) ;
 
 
-    $log.log("///////////////////////////") ;
-    $log.log("book_imgs_4 :" +  $scope.book_imgs_4) ;
-    $scope.books_object = model.global.books;
+
+
+
+
+
 
 
 }]);
