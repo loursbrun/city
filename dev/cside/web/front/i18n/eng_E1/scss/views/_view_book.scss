@@ -165,7 +165,7 @@
 
 
 
-  .arrow-brown , .arrow-brown-first , .arrow-brown-second, .arrow-brown-third, .arrow-brown-fourth{
+  .arrow-brown , .arrow-brown-first , .arrow-brown-second, .arrow-brown-third, .arrow-brown-fourth, .arrow-brown-fifth{
     position: relative;
     float: left;
     width: 0;
@@ -182,8 +182,15 @@
 
   .arrow-brown-fourth {
     margin-top: 5px;
+    float: left;
     cursor: pointer;
   }
+
+  .arrow-brown-fifth {
+    margin-left: 15px;
+    cursor: pointer;
+  }
+
 
 
   .arrow-brown-first ,{
@@ -279,6 +286,17 @@
   }
 
 
+  .btnHeaderFifth {
+
+    cursor: pointer;
+
+    p {
+
+
+    }
+  }
+
+
 
   .tint {
     position: absolute;
@@ -306,6 +324,26 @@
     animation-delay: -2s;
   }
 
+
+
+  .li-container {
+    position: absolute;
+    width: 100%;
+  }
+
+  .li-book {
+    float: left;
+    cursor: pointer;
+  }
+  .li-video {
+    float: left;
+    cursor: pointer;
+
+    img {
+      margin-left: 15px;
+    }
+
+  }
 
 
 

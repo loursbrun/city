@@ -435,7 +435,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
 }
-.view-book .arrow-brown, .view-book .arrow-brown-first, .view-book .arrow-brown-second, .view-book .arrow-brown-third, .view-book .arrow-brown-fourth {
+.view-book .arrow-brown, .view-book .arrow-brown-first, .view-book .arrow-brown-second, .view-book .arrow-brown-third, .view-book .arrow-brown-fourth, .view-book .arrow-brown-fifth {
   position: relative;
   float: left;
   width: 0;
@@ -449,6 +449,11 @@ html {
 }
 .view-book .arrow-brown-fourth {
   margin-top: 5px;
+  float: left;
+  cursor: pointer;
+}
+.view-book .arrow-brown-fifth {
+  margin-left: 15px;
   cursor: pointer;
 }
 .view-book .arrow-brown-first {
@@ -524,6 +529,9 @@ html {
   font-weight: normal;
   font-size: 13px;
 }
+.view-book .btnHeaderFifth {
+  cursor: pointer;
+}
 .view-book .tint {
   position: absolute;
   z-index: 150;
@@ -546,6 +554,21 @@ html {
   background: rgba(239, 48, 70, 0.3);
   -webkit-animation: fade 6s infinite;
   animation-delay: -2s;
+}
+.view-book .li-container {
+  position: absolute;
+  width: 100%;
+}
+.view-book .li-book {
+  float: left;
+  cursor: pointer;
+}
+.view-book .li-video {
+  float: left;
+  cursor: pointer;
+}
+.view-book .li-video img {
+  margin-left: 15px;
 }
 
 @media screen and (max-width: 768px) {
