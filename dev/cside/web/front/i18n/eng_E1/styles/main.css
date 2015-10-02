@@ -365,7 +365,7 @@ html {
   position: absolute;
   width: 50px;
   height: 50px;
-  background: url("http://localhost/Fabien/city/deploy/deploy//assets/images/common/badge.png");
+  background: url("../../../assets/images/common/badge.png");
   background-size: 50px 50px;
   background-position: top;
   background-repeat: no-repeat;
@@ -400,7 +400,7 @@ html {
   }
 }
 .view-book .slideshow #slide1 {
-  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/beijing/032105h.jpg");
+  background: url("../../../assets/images/cities/beijing/032105h.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -409,7 +409,7 @@ html {
   background-position: center;
 }
 .view-book .slideshow #slide2 {
-  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/beijing/032106h.jpg");
+  background: url("../../../assets/images/cities/beijing/032106h.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -418,7 +418,7 @@ html {
   background-position: center;
 }
 .view-book .slideshow #slide3 {
-  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/beijing/032107h.jpg");
+  background: url("../../../assets/images/cities/beijing/032107h.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -427,7 +427,7 @@ html {
   background-position: center;
 }
 .view-book .slideshow #slide4 {
-  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/beijing/032109h.jpg");
+  background: url("../../../assets/images/cities/beijing/032109h.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -641,7 +641,7 @@ html {
   width: 80%;
   margin-left: -40%;
   height: 50px;
-  background: url("http://localhost/Fabien/city/deploy/deploy//assets/images/common/badge.png");
+  background: url("../../../assets/images/common/badge.png");
   background-size: 50px 50px;
   background-position: top;
   background-repeat: no-repeat;
@@ -677,7 +677,7 @@ html {
   }
 }
 .view-exceptionalcase .slideshow #slideCase {
-  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/exceptional-case/packshot.jpg");
+  background: url("../../../assets/images/cities/exceptional-case/packshot.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
