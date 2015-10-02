@@ -4,5 +4,257 @@
 
 
 .view-boxset {
-  background-color: brown;
+
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+
+
+
+
+  .book-container {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left:0;
+    background-color: #f7f7f7;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      height: 60%;
+      top:40%;
+    }
+
+  }
+
+
+
+  .content-book {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    top: 30%;
+    text-align: left;
+
+
+
+
+    h1 {
+      font-family: "FuturaPTHeavy-Reg", sans-serif;
+      font-size: 32px;
+      line-height: 26px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #4f332e;
+
+
+
+
+      span {
+        position: absolute;
+        width: 100%;
+        margin-left: -50%;
+        height: 50px;
+        background: url("../../../assets/images/common/badge.png");
+        background-size: 50px 50px;
+        background-position: top;
+        background-repeat: no-repeat;
+        padding-bottom: 54px;
+        background-position: bottom;
+
+      }
+
+
+    }
+
+    p {
+      position: relative;
+      margin-bottom: 20px;
+      font-family: "LouisVuitton-N", sans-serif;
+      font-size: 14px;
+      line-height: 18px;
+      color: #4f332e;
+    }
+
+
+    .title-book {
+      position: relative;
+      width: 100%;
+      height: 120px;
+    }
+
+
+  }
+
+
+
+  .slideshow {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    background-size:contain;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      height: 40%;
+      top:0;
+      padding-top: -50px;
+    }
+
+
+    #slideCase {
+
+      background: url("../../../assets/images/cities/box-set/packshot.jpg") ;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+
+    }
+
+
+
+  }
+
+
+
+  .arrow-brown , .arrow-brown-first , .arrow-brown-second, .arrow-brown-third, .arrow-brown-fourth{
+    position: relative;
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid $baseFontColor;
+    margin-right: 5px;
+    margin-top: 4px;
+    pointer-events: none;
+
+
+  }
+
+  .arrow-brown-fourth {
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+
+  .arrow-brown-first ,{
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+
+  }
+
+
+
+  .btnHeaderFirst{
+    position: absolute;
+    left: 10px;
+    width: 120px;
+    background-color: white;
+    top: 55px;
+    cursor: pointer;
+    padding-left: 5px;
+
+    p {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      width: 120px;
+      font-weight: normal;
+      font-size: 13px;
+      pointer-events: none;
+
+
+    }
+
+  }
+
+  .btnHeaderSecond{
+    position: absolute;
+    left: 10px;
+    width: 150px;
+    background-color: white;
+    top: 100px;
+    cursor: pointer;
+    padding-left: 5px;
+
+    p {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      width: 150px;
+      font-weight: normal;
+      font-size: 13px;
+
+    }
+  }
+
+  .btnHeaderThird {
+    position: absolute;
+    left: 10px;
+    width: 150px;
+    background-color: white;
+    top: 150px;
+    cursor: pointer;
+    padding-left: 5px;
+
+    p {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      width: 150px;
+      font-weight: normal;
+      font-size: 13px;
+
+    }
+
+
+  }
+
+
+  .btnHeaderFourth {
+    position: absolute;
+    left: 10px;
+    width: 150px;
+    cursor: pointer;
+
+    p {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      width: 150px;
+      font-weight: normal;
+      font-size: 13px;
+
+    }
+  }
+
+
+
+
+
+
+
+}
+
+
+.page #animationContent {
+  @media screen and (max-width: 768px) {
+    padding-top: 0px ;
+    padding-bottom: 0;
+  }
+}
+
+
+.slide {
+  position: absolute;
+
 }
