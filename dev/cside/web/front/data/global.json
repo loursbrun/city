@@ -29,5 +29,328 @@
     },
     "config": {
         "video_player_url": "http://player.louisvuitton.com/embed/"
-    }
+    },
+
+
+        "books": [
+            {
+                "id": "mexico",
+                "color": "#f47236",
+                "badge": "tr",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/mexico/032156h.jpg",
+                    "cities/mexico/032163h.jpg",
+                    "cities/mexico/032162h.jpg",
+                    "cities/mexico/032166h.jpg",
+                    "cities/mexico/032159h.jpg",
+                    "cities/mexico/032157h.jpg"
+                ]
+            },
+            {
+                "id": "beijing",
+                "color": "#ef3046",
+                "badge": "tl",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/beijing/032105h.jpg",
+                    "cities/beijing/032106h.jpg",
+                    "cities/beijing/032107h.jpg",
+                    "cities/beijing/032109h.jpg",
+                    "cities/beijing/032110h.jpg",
+                    "cities/beijing/032113h.jpg"
+                ]
+            },
+            {
+                "id": "los-angeles",
+                "color": "#c36970",
+                "badge": "tr",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/los-angeles/032021h.jpg",
+                    "cities/los-angeles/032027h.jpg",
+                    "cities/los-angeles/032024h.jpg",
+                    "cities/los-angeles/032023h.jpg",
+                    "cities/los-angeles/032029h.jpg",
+                    "cities/los-angeles/032036h.jpg"
+                ]
+            },
+            {
+                "id": "tokyo",
+                "color": "#ed0088",
+                "badge": "t",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/tokyo/032194h.jpg",
+                    "cities/tokyo/032191h.jpg",
+                    "cities/tokyo/032197h.jpg",
+                    "cities/tokyo/032190h.jpg",
+                    "cities/tokyo/032195h.jpg",
+                    "cities/tokyo/032192h.jpg"
+                ]
+            },
+            {
+                "id": "venice",
+                "color": "#bd4f99",
+                "badge": "tr",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/venice/032207h.jpg",
+                    "cities/venice/032220h.jpg",
+                    "cities/venice/032212h.jpg",
+                    "cities/venice/032213h.jpg",
+                    "cities/venice/032217h.jpg",
+                    "cities/venice/032218h.jpg"
+                ]
+            },
+            {
+                "id": "london",
+                "color": "#8a60a3",
+                "badge": "bl",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/london/032003h.jpg",
+                    "cities/london/032006h.jpg",
+                    "cities/london/032009h.jpg",
+                    "cities/london/032010h.jpg",
+                    "cities/london/032017h.jpg",
+                    "cities/london/032019h.jpg"
+                ]
+            },
+            {
+                "id": "seoul",
+                "color": "#7272b0",
+                "badge": "bl",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/seoul/032140h.jpg",
+                    "cities/seoul/032144h.jpg",
+                    "cities/seoul/032146h.jpg",
+                    "cities/seoul/032145h.jpg",
+                    "cities/seoul/032143h.jpg",
+                    "cities/seoul/032154h.jpg"
+                ]
+            },
+            {
+                "id": "paris",
+                "color": "#2684c1",
+                "badge": "tl",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/paris/PARIS_Coulon-02.jpg",
+                    "cities/paris/PARIS_Coulon-03.jpg",
+                    "cities/paris/PARIS_Coulon-05.jpg",
+                    "cities/paris/PARIS_Coulon-06.jpg",
+                    "cities/paris/PARIS_Coulon-07.jpg",
+                    "cities/paris/PARIS_Coulon-17.jpg"
+                ]
+            },
+            {
+                "id": "sydney",
+                "color": "#00a0d5",
+                "badge": "b",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/sydney/032174h.jpg",
+                    "cities/sydney/032173h.jpg",
+                    "cities/sydney/032176h.jpg",
+                    "cities/sydney/032177h.jpg",
+                    "cities/sydney/032180h.jpg",
+                    "cities/sydney/032186h.jpg"
+                ]
+            },
+            {
+                "id": "moscow",
+                "color": "#00aaa8",
+                "badge": "t",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/moscow/032054h.jpg",
+                    "cities/moscow/032055h.jpg",
+                    "cities/moscow/032056h.jpg",
+                    "cities/moscow/032059h.jpg",
+                    "cities/moscow/032061h.jpg",
+                    "cities/moscow/032062h.jpg"
+                ]
+            },
+            {
+                "id": "miami",
+                "color": "#28b785",
+                "badge": "bl",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/miami/032037h.jpg",
+                    "cities/miami/032038h.jpg",
+                    "cities/miami/032040h.jpg",
+                    "cities/miami/032044h.jpg",
+                    "cities/miami/032051h.jpg",
+                    "cities/miami/032041h.jpg"
+                ]
+            },
+            {
+                "id": "sao-paulo",
+                "color": "#00934f",
+                "badge": "br",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/sao-paulo/032123h.jpg",
+                    "cities/sao-paulo/032122h.jpg",
+                    "cities/sao-paulo/032128h.jpg",
+                    "cities/sao-paulo/032126h.jpg",
+                    "cities/sao-paulo/032124h.jpg",
+                    "cities/sao-paulo/032123h.jpg"
+                ]
+            },
+            {
+                "id": "cape-town",
+                "color": "#92a23c",
+                "badge": "bl",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/cape-town/031986h.jpg",
+                    "cities/cape-town/031993h.jpg",
+                    "cities/cape-town/031989h.jpg",
+                    "cities/cape-town/031992h.jpg",
+                    "cities/cape-town/032001h.jpg",
+                    "cities/cape-town/031999h.jpg"
+                ]
+            },
+            {
+                "id": "new-york",
+                "color": "#c79439",
+                "badge": "tr",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/new-york/032072h.jpg",
+                    "cities/new-york/032078h.jpg",
+                    "cities/new-york/032073h.jpg",
+                    "cities/new-york/032081h.jpg",
+                    "cities/new-york/032087h.jpg",
+                    "cities/new-york/032086h.jpg"
+                ]
+            },
+            {
+                "id": "hong-kong",
+                "color": "#d4753c",
+                "badge": "tr",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/hong-kong/031969h.jpg",
+                    "cities/hong-kong/031970h.jpg",
+                    "cities/hong-kong/031972h.jpg",
+                    "cities/hong-kong/031976h.jpg",
+                    "cities/hong-kong/031982h.jpg",
+                    "cities/hong-kong/031980h.jpg"
+                ]
+            },
+
+            {
+                "id": "berlin",
+                "color": "#e98800",
+                "badge": "bl",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/berlin/BERLIN_Tourneboeuf-01.jpg",
+                    "cities/berlin/BERLIN_Tourneboeuf-02.jpg",
+                    "cities/berlin/BERLIN_Tourneboeuf-03.jpg",
+                    "cities/berlin/BERLIN_Tourneboeuf-06.jpg",
+                    "cities/berlin/BERLIN_Tourneboeuf-07.jpg"
+                ]
+            },
+            {
+                "id": "istanbul",
+                "color": "#a26288",
+                "badge": "tr",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/istanbul/ISTANBUL_Ardouin_01.jpg",
+                    "cities/istanbul/ISTANBUL_Ardouin_02.jpg",
+                    "cities/istanbul/ISTANBUL_Ardouin_03.jpg",
+                    "cities/istanbul/ISTANBUL_Ardouin_06.jpg",
+                    "cities/istanbul/ISTANBUL_Ardouin_07.jpg"
+                ]
+            },
+            {
+                "id": "milan",
+                "color": "#d24747",
+                "badge": "br",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/milan/MILAN_Willaume_01.jpg",
+                    "cities/milan/MILAN_Willaume_02.jpg",
+                    "cities/milan/MILAN_Willaume_03.jpg",
+                    "cities/milan/MILAN_Willaume_05.jpg",
+                    "cities/milan/MILAN_Willaume_06.jpg",
+                    "cities/milan/MILAN_Willaume_07.jpg",
+                    "cities/milan/MILAN_Willaume_17.jpg"
+                ]
+            },
+            {
+                "id": "rio",
+                "color": "#c1873a",
+                "badge": "tl",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/rio/RIO_Bourges_01.jpg",
+                    "cities/rio/RIO_Bourges_02.jpg",
+                    "cities/rio/RIO_Bourges_03.jpg",
+                    "cities/rio/RIO_Bourges_06.jpg",
+                    "cities/rio/RIO_Bourges_07.jpg",
+                    "cities/rio/RIO_Bourges_17.jpg"
+                ]
+            },
+            {
+                "id": "shanghai",
+                "color": "#02ac9f",
+                "badge": "tl",
+                "inversed_layout": false,
+                "imgs": [
+                    "cities/shanghai/SHANGHAI_Meunier_02.jpg",
+                    "cities/shanghai/SHANGHAI_Meunier_03.jpg",
+                    "cities/shanghai/SHANGHAI_Meunier_05.jpg",
+                    "cities/shanghai/SHANGHAI_Meunier_07.jpg",
+                    "cities/shanghai/SHANGHAI_Meunier_17.jpg"
+                ]
+            },
+            {
+                "id": "singapore",
+                "color": "#abc549",
+                "badge": "b",
+                "inversed_layout": true,
+                "imgs": [
+                    "cities/singapore/SINGAPOUR_Culmann_01.jpg",
+                    "cities/singapore/SINGAPOUR_Culmann_02.jpg",
+                    "cities/singapore/SINGAPOUR_Culmann_03.jpg",
+                    "cities/singapore/SINGAPOUR_Culmann_05.jpg",
+                    "cities/singapore/SINGAPOUR_Culmann_06.jpg",
+                    "cities/singapore/SINGAPOUR_Culmann_07.jpg",
+                    "cities/singapore/SINGAPOUR_Culmann_17.jpg"
+                ]
+            },
+            {
+                "id": "exceptional-case",
+                "badge": "b",
+                "imgs": [
+                    "cities/exceptional-case/packshot.jpg"
+                ],
+                "onHome": false
+            },
+            {
+                "id": "box-set",
+                "badge": "b",
+                "imgs": [
+                    "cities/box-set/packshot.jpg"
+                ],
+                "onHome": false
+            }
+        ],
+
+        "img": {
+            "badge": "common/badge.png"
+        }
+
+
+
+
+
 }

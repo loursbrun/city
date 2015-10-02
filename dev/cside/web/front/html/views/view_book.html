@@ -20,7 +20,7 @@
 
 
         <div class="title-book">
-        <h1 style="color: rgb(239, 48, 70);"><span>BEIJING</span></h1>
+        <h1 style='color:{{book_color}};'><span>{{book_name}}</span></h1>
         </div>
 
 
@@ -35,7 +35,7 @@
 
 
             <a class="link-book" ng-click="pathTo('boxset')">
-            <img src="../deploy/deploy/assets/images/cities/beijing/cta.jpg">
+            <img src="../deploy/deploy/assets/images/cities/{{book_name}}/cta.jpg">
             </a>
 
                <a class="btnHeaderFourth" ng-click="pathTo('boxset')" ng-mouseenter="arrowMouseOver('arrow-brown-fourth')" ng-mouseleave="arrowMouseOut('arrow-brown-fourth')"><div class="arrow-brown-fourth"></div>
@@ -48,7 +48,7 @@
 
     <li class="li-video">
             <a class="link-video" ng-click="pathTo('boxset')">
-            <img src="../deploy/deploy/assets/images/cities/hong-kong/video.jpg">
+            <img src="../deploy/deploy/assets/images/cities/{{book_name}}/video.jpg">
             </a>
 
         <br/>

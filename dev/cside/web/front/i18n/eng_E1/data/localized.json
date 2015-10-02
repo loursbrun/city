@@ -2,5 +2,190 @@
     "redirections":
     {
         "IE8":"/eng-e1/upgrade-your-browser"
+    },
+    "labels_dictionaries": {
+        "common": {
+            "skip": "SKIP THE VIDEO",
+            "discover": "SEE THE CITY GUIDE",
+            "pdf": "SEE THE BROCHURE",
+            "more": "MORE DETAILS",
+            "see_video": "SEE THE VIDEO",
+            "back": "RETURN TO COLLECTION",
+            "back_book": "RETURN TO CITY GUIDE",
+            "exceptional_case": "EXCEPTIONAL CASE<br/>OF ALL 15 CITIES",
+            "box_set": "BOX SET WITH A CHOICE<br/>OF 5 CITIES"
+        },
+
+        "home": {
+            "title": "LOUIS VUITTON CITY GUIDES",
+            "description": "Beautifully illustrated with exclusive photographs,<br/>each year the Louis Vuitton City Guides explore new urban destinations.<br/>Refreshed with up-to-date content, this collection remains in a class by itself,<br/>now covering 21 of the world’s greatest cities.",
+            "shortDescription": "Beautifully illustrated with exclusive photographs, each year the Louis Vuitton City Guides explore new urban destinations. Refreshed with up-to-date content, this collection remains in a class by itself, now covering 21 of the world’s greatest cities.",
+            "pdfLink": "brochure_EN.pdf"
+        },
+
+        "mexico": {
+            "title": "MEXICO<br/>CITY",
+            "description": "This sprawling city, one of the world's most populous metropolitan areas, offers a passionate mosaic of colorful neighborhoods, known as colonias, where diversity rather than unity is the byword. From the bustling and energetic historic center to Tepito in the north, notoriously home to the country's largest informal market, contrasting with picturesque and artistic Coyoacán and the aristocratic tranquility of San Angel in the south. <br><br>Authors: Élisabeth Cautru, Natasha Edwards, Ana Elena Mallet, Maria Jose Musi, Guillermo Osorno Covarrubias, Una Pérez Ruiz, Yannina Thomassiny, Deborah Vértiz <br>Photographer: Flore-Aël Surun <br>Guest: Carlos Couturie",
+            "slug": "mexico-city",
+            "sku": "R07877"
+        },
+
+        "beijing": {
+            "slug": "beijing",
+            "title": "BEIJING",
+            "description": "A capital of strong contrasts, between peace and turmoil. Today's architectural marvels sprout alongside landmarks dating back as much as three millennia. Phenomenal economic growth in recent years sets this city's rhythm and energy, creating an urban landscape in a constant process of becoming. <br><br>Authors: Paul Duncun, Patrick Farrell, Nadine Rubin Nathan <br>Photographer: Alain Willaume <br>Guest: Beezy Bailey",
+            "sku": "R07858"
+        },
+
+        "los-angeles": {
+            "slug": "los-angeles",
+            "title": "LOS<br/>ANGELES",
+            "description": "This modern city is the stuff of which legends are made, the fiefdom of glitz and glamour: West Hollywood, Sunset Boulevard, Beverly Hills…. The largest American city on the Pacific coast, famous for its labyrinth of highways and its string of sun-drenched beaches with names such as Santa Monica, Venice and Malibu, is taking on a new identity today, pushing strongly to remake its downtown area as a world-class destination, buoyed by the presence of major cultural institutions. <br><br>Authors: Sabine Bouvet, Claude Deloffre, Pierre Léonforte <br>Photographer: Denis Bourges <br>Guest: Tim Street-Porter",
+            "sku": "R07873"
+        },
+
+        "tokyo": {
+            "slug": "tokyo",
+            "title": "TOKYO",
+            "description": "Hip to the latest fashion trends and technologically savvy, this chameleon city offers an astonishing marriage of modernity and tradition, from sleek contemporary architecture to the ancient art treasures of the Asakusa district, fascinating visitors with its seemingly boundless ambition, inspiration and energy. <br><br>Authors: Benoit Piquet, Michel Temman<br>Photographer: Mat Jacob <br>Guest: Makoto Ozone",
+            "sku": "R07861",
+            "video": "1031382"
+        },
+
+        "venice": {
+            "slug": "venice",
+            "title": "VENICE",
+            "description": "By turns festive and secretive, this city of dreams and illusions between sea and sky reserves its inexhaustible artistic heritage and its contemporary creativity for those who, venturing beyond the usual tourist attractions, take the time to explore its labyrinth of narrow streets and canals.<br><br>Authors: Philippe Duboÿ, Oscar Duboÿ<br>Photographer: Patrick Tourneboeuf <br>Guest: Alberto Sonino",
+            "sku": "R07852"
+        },
+
+        "london": {
+            "slug": "london",
+            "title": "LONDON",
+            "description": "Stretching for many miles on either side of the Thames, this dynamic capital takes pride in its ethnic diversity while still embodying the quintessential British spirit, which shines through in a vast assortment of unique places, each with its own very special atmosphere, from the fantastically eccentric Speaker's Corner in Hyde Park to the stiff-upper-lip luxury of Belgravia, from the nocturnal playground of Soho to the imposing behemoths of a storied financial center, the City. <br><br>Authors: James Sherwood, Harriet Walker, Augusta Pownall <br>Photographer: Philippe Lopparelli <br>Guest: Celia Birtwell",
+            "sku": "R07850",
+            "video": "1031381"
+        },
+
+        "seoul": {
+            "slug": "seoul",
+            "title": "SEOUL",
+            "description": "Buddhist temples and gardens are oases in this fastgrowing megacity. Provocative building facades are complemented by the eclectic galleries of a booming contemporary art scene, where local artists vie for acclaim with highly creative and engaging multimedia works. The dynamic and light-hearted South Korean capital, a high-tech hotbed, deftly marries its taste for innovation and design with a party spirit.<br><br>Authors: Nicolas Finet, Jean-Yves Ruaux, Michel Temman <br>Photographer: Thierry Ardouin <br>Guest: Lee Byung-Hun",
+            "sku": "R07898"
+        },
+
+        "paris": {
+            "slug": "paris",
+            "title": "PARIS",
+            "description": "Synonymous with elegance, the quintessential city of light wears the marks of its long history effortlessly on every corner. Always a romantic backdrop, straddling the banks of a river where dreams come true. A city that retains a hint of insolence and jauntiness from its insubordinate past, inspiring artists, creative spirits, connoisseurs and all lovers of luxury and beauty.<br><br>Authors: Alexis Chenu, Claude Deloffre, Sébastien Demorand, Isabelle Forestier, Sophie Massalovitch <br>Photographer: Gilles Coulon <br>Guest: Frank Gehry",
+            "sku": "R07850",
+            "video": "1031380"
+        },
+
+        "sydney": {
+            "slug": "sydney",
+            "title": "SYDNEY",
+            "description": "Spirited and bathed in sea breezes, Australia's most cosmopolitan city is a great place to live, its claims to fame including the bay lit at night by the office buildings of the business district, the steel arch of the Harbour Bridge, not to forget the futuristic and beastlike silhouette of the Opera House with its fins extended, ready to set sail. <br><br>Authors: Marie Aucouturier, Marie Le Fort <br>Photographer: Pascal Aimar <br>Guest: Miranda Otto",
+            "sku": "R07867"
+        },
+
+        "moscow": {
+            "slug": "moscow",
+            "title": "MOSCOW",
+            "description": "Brash, bold and beautiful, its history stretching back nearly a thousand years, the Russian capital revels in its artistry and majesty. From gilt domes to holy sanctuaries, from the severity of Soviet-era urban planning to the splendor of world-renowned art collections, and the gaudy razzle-dazzle of its nightclubs, this eclectic city never fails to enthrall.<br> <br>Author: Sophie Massalovitch <br>Photographer: Pascal Aimar <br>Guest: Mikhail Gannushkin",
+            "sku": "R07855"
+        },
+
+        "miami": {
+            "slug": "miami",
+            "title": "MIAMI",
+            "description": "Seductive, sun-kissed, devoted to outdoor pleasures, dominated by the Four Seasons Hotel and the ultra-modern office buildings of its central business district, a tropical paradise by day and an urban playground by night, with a vibrant music scene, this fashionable city is at the crossroads of North American, Latin American and Caribbean cultures. <br><br>Authors: Linda Lee, Lydia Martin, Barbara de Vries <br>Photographer: Olivier Culmann <br>Guest: Lourdes Lopez",
+            "sku": "R07875"
+        },
+
+        "sao-paulo": {
+            "slug": "sao-paulo",
+            "title": "SÃO<br/>PAULO",
+            "description": "Welcoming, prosperous, wheeling-dealing, burning the candle at both ends, contagious in its effervescence,this economic success story and emerging-market paragon, the largest metropolis in the Southern Hemisphere, with its thousands of buildings, including many skyscrapers reaching to the heavens, is constantly in motion.<br><br>Authors: Jean-Michel de Alberti, Cédric Morisset, Ana Luisa Pessoa de Queiroz <br>Photographer: Meyer <br>Guest: Marcio Kogan",
+            "sku": "R07880"
+        },
+
+        "cape-town": {
+            "slug": "cape-town",
+            "title": "CAPE<br/>TOWN",
+            "description": "With its stunning beaches, framed by the blue immensity of the ocean, this city at the southern tip of the African continent is an experience not to be missed. A concert of white and black African identities awaits the visitor, an unequaled meeting point of geographies, cultures and histories, encompassing vestiges of the colonial past and rich floral diversity, villas with old-world charm and contemporary post-apartheid constructions. This is a city in transformation, open to the world. <br><br>Authors: Paul Duncan, Patrick Farrell, Nadine Rubin Nathan <br>Photographer: Alain Willaume <br>Guest: Beezy Bailey",
+            "sku": "R07869"
+        },
+
+        "new-york": {
+            "slug": "new-york",
+            "title": "NEW<br/>YORK",
+            "description": "The city that never sleeps, a dream destination for travelers, with an infectious spirit of camaraderie, offers surprises to its visitors not just when they move from one neighborhood to the next but on every corner. Geometric and awe-inspiring Manhattan, the vast yet human scale of intellectual and artistic Brooklyn, the melting pot of cultures vividly on display in Queens—an exciting and desire-kindling metropolis, that stays with visitors long after they leave. <br><br>Authors: Juliet Kinsman, Daniel Maurer, Rachel Wolff <br>Photographer: Gilles Coulon <br>Guest: Melia Marden",
+            "sku": "R07871",
+            "video": "1031385"
+        },
+
+        "hong-kong": {
+            "slug": "hong-kong",
+            "title": "HONG<br/>KONG",
+            "description": "Nestled between sea and mountains, a group of islands and peninsulas with limited room to grow is home to this fascinating metropolis, peppered with more skyscrapers than any other city in the world, reaching ever higher, with thronging streets, a frenetic pace of life and, amidst this joyous chaos, the grace of a Zen temple or the sanctuary of a botanical garden. The entrancingly lit skyline at night is a symphony of color reflected in waters plied by catamarans, sampans and ferryboats. <br><br>Authors: Lok Ting, Zoe Li, Virginia Lau <br>Photographer: Bertrand Meunier <br>Guest: Carol Cheng",
+            "sku": "R07864",
+            "video": "1031379"
+        },
+
+        "berlin": {
+            "slug": "berlin",
+            "title": "BERLIN",
+            "description": "Berlin has never stopped reinventing itself drawing its dynamism from its history and its transformations. Today, its landmark buildings have regained their splendor and grace. The former East Berlin has been entirely rehabilitated and now a vast program of architectural renovation and urban renewal is under way in West Berlin. Open-minded, free-spirited and tolerant, Berlin is an extremely modern city, standing as a beacon of reconciliation.<br><br>Author: Pierre Léonforte <br>Photographer: Patrick Tourneboeuf <br>Guest: Barrie Kosky",
+            "sku": "R08025"
+        },
+
+        "istanbul": {
+            "slug": "istanbul",
+            "title": "ISTANBUL",
+            "description": "A magical city, Istanbul brims with life, against a backdrop of Ottoman riches and ornate palaces. Captivating, proud and boisterous, like the waters of the Bosporus, the city is constantly changing, painting each visit in a new color. Contemporary, bubbling over with creativity, Istanbul draws inspiration from its past to move forward into the future, with force, delicacy and determination.<br><br>Authors: Marie Le Fort, Antony Doucet, Alara Kap, Bahar Karaca, Fatma Zehra Hande Orekli, Umut Sengün, Zeynep Berik Yazici <br>Photographer: Thierry Ardouin <br>Guest: Serdar Gülgün",
+            "sku": "R08023"
+        },
+
+        "milan": {
+            "slug": "milan",
+            "title": "MILAN",
+            "description": "Italy’s financial capital and the main city of the prosperous northern province of Lombardy, a center for publishing and the press industry, Milan proudly boasts a new urban landscape created in advance of Expo 2015, the next world fair. Now more than ever the city stands as a magnet for fashion and design, a trendsetter for an international lifestyle that draws streams of visitors from around the world.<br><br>Authors: Pierre Léonforte, Isabelle Valembras-Dahirel, Donatella Brun <br>Photographer: Alain Willaume <br>Guest: Giovanni Gastel",
+            "sku": "R08021"
+        },
+
+        "rio": {
+            "slug": "rio-de-janeio",
+            "title": "RIO DE<br/>JANEIRO",
+            "description": "Both provincial and sophisticated, beautiful and wild, Rio is a modern, tropical and multicultural metropolis that revels in paradox. From lush forests to closely packed skyscrapers, modern architectural masterpieces to elegant colonial residences, glamour to religious fervor, beaches to ultra-contemporary museums, there really is no other city quite like it on the planet.<br><br>Authors: Ana Luiza Pessoa de Quieroz, Dominic Phillips, Douglas Gray, Kathleen Mary McCaul, Nathan Walters <br>Photographer: Denis Bourges <br>Guest: Joyce Moreno",
+            "sku": "R08019"
+        },
+
+        "shanghai": {
+            "slug": "shanghai",
+            "title": "SHANGHAI",
+            "description": "At the vanguard of world economic development, Shanghai teems with avant-garde office buildings dangling above the clouds and counts nearly 25 million residents. Although quite often beset by thick smog, on some days the sky can be a brilliant blue. The city’s weather is a study in contrasts: frigid winters, humid and scorchingly hot summers. Owing to these extremes, Shanghai’s energy has plenty of bite, firmly asserting its position as a fascinating metropolis at the cusp of the future.<br><br>Authors: Michel Temman, Nick Taylor, Justin Fischer, Samuel Charles Gaskin, Kuan Huai Tsyr <br>Photographer: Bertrand Meunier <br>Guest: Paul Pairet",
+            "sku": "R08017"
+        },
+
+        "singapore": {
+            "slug": "singapore",
+            "title": "SINGAPORE",
+            "description": "In less than 50 years, Singapore has grown from a peaceful fishing village into one of the world’s most vibrant cities. Its reputation as a leading provider of services and its reliability as a city built for business have earned it the nickname “Singapore Inc.” But this is far from the whole story. Nurturing creativity is also one of Singapore’s strong points, making this Asian destination an extraordinary city where everyone wants to live.<br><br>Authors: Annette Tan, Charlene Fang, Daven Wu, Desiree Koh, Audrey Perera <br>Photographer: Olivier Culmann <br>Guest: Peter Lee",
+            "sku": "R08015"
+        },
+
+        "exceptional-case": {
+            "slug": "exceptional-case",
+            "title": "Exceptional case<br>of all 15 cities",
+            "description": "Designed with discerning travelers in mind, whether they are jet-setting from city to city or curling up in their favorite armchair, an exceptional case has been created specifically for this year’s Louis Vuitton City Guides, issued in a limited edition of 3,000 numbered copies.<br><br>All 15 cities may thus be stored in this indispensable box in lacquered wood, available in five eye-popping colors. Its clean lines and graceful proportions join in celebrating 15 years of Louis Vuitton City Guides.",
+            "sku": "R07901"
+        },
+
+        "box-set": {
+            "slug": "box-set",
+            "title": "BOX SET WITH A CHOICE OF 5 CITIES",
+            "description": "The Louis Vuitton City Guides may be purchased in a box set including any 5 destinations among the 21 in the entire collection.<br/><br/>Available exclusively in Louis Vuitton stores, this box set also makes an ideal gift for all urban explorers, who may thus be treated to guides for a group of cities reflecting their personalities and interests. Below we suggest just a few examples.<br/><br/>Fashion capitals: London, Milan, New York, Paris, Tokyo<br/>Important centers for contemporary art: London, Miami, New York, São Paulo, Venice<br/>Beach cities: Cape Town, Los Angeles, Rio de Janeiro, Singapore, Sydney<br/>Business cities: London, Hong Kong, New York, Singapore, Tokyo"
+        }
     }
 }
