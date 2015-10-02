@@ -602,7 +602,188 @@ html {
 }
 
 .view-exceptionalcase {
-  background-color: blue;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+.view-exceptionalcase .book-container {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  background-color: #f7f7f7;
+}
+@media screen and (max-width: 768px) {
+  .view-exceptionalcase .book-container {
+    width: 100%;
+    height: 60%;
+    top: 40%;
+  }
+}
+.view-exceptionalcase .content-book {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  top: 30%;
+  text-align: left;
+}
+.view-exceptionalcase .content-book h1 {
+  font-family: "FuturaPTHeavy-Reg", sans-serif;
+  font-size: 32px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4f332e;
+}
+.view-exceptionalcase .content-book h1 span {
+  position: absolute;
+  width: 80%;
+  margin-left: -40%;
+  height: 50px;
+  background: url("http://localhost/Fabien/city/deploy/deploy//assets/images/common/badge.png");
+  background-size: 50px 50px;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 54px;
+  background-position: bottom;
+}
+.view-exceptionalcase .content-book p {
+  position: relative;
+  margin-bottom: 20px;
+  font-family: "LouisVuitton-N", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4f332e;
+}
+.view-exceptionalcase .content-book .title-book {
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+.view-exceptionalcase .slideshow {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  background-size: contain;
+}
+@media screen and (max-width: 768px) {
+  .view-exceptionalcase .slideshow {
+    width: 100%;
+    height: 40%;
+    top: 0;
+    padding-top: -50px;
+  }
+}
+.view-exceptionalcase .slideshow #slideCase {
+  background: url("http://localhost/Fabien/city/deploy/deploy/assets/images/cities/exceptional-case/packshot.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.view-exceptionalcase .arrow-brown, .view-exceptionalcase .arrow-brown-first, .view-exceptionalcase .arrow-brown-second, .view-exceptionalcase .arrow-brown-third, .view-exceptionalcase .arrow-brown-fourth {
+  position: relative;
+  float: left;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #4f332e;
+  margin-right: 5px;
+  margin-top: 4px;
+  pointer-events: none;
+}
+.view-exceptionalcase .arrow-brown-fourth {
+  margin-top: 5px;
+  cursor: pointer;
+}
+.view-exceptionalcase .arrow-brown-first {
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+.view-exceptionalcase .btnHeaderFirst {
+  position: absolute;
+  left: 10px;
+  width: 120px;
+  background-color: white;
+  top: 55px;
+  cursor: pointer;
+  padding-left: 5px;
+}
+.view-exceptionalcase .btnHeaderFirst p {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  font-weight: normal;
+  font-size: 13px;
+  pointer-events: none;
+}
+.view-exceptionalcase .btnHeaderSecond {
+  position: absolute;
+  left: 10px;
+  width: 150px;
+  background-color: white;
+  top: 100px;
+  cursor: pointer;
+  padding-left: 5px;
+}
+.view-exceptionalcase .btnHeaderSecond p {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  font-weight: normal;
+  font-size: 13px;
+}
+.view-exceptionalcase .btnHeaderThird {
+  position: absolute;
+  left: 10px;
+  width: 150px;
+  background-color: white;
+  top: 150px;
+  cursor: pointer;
+  padding-left: 5px;
+}
+.view-exceptionalcase .btnHeaderThird p {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  font-weight: normal;
+  font-size: 13px;
+}
+.view-exceptionalcase .btnHeaderFourth {
+  position: absolute;
+  left: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+.view-exceptionalcase .btnHeaderFourth p {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .page #animationContent {
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+}
+
+.slide {
+  position: absolute;
 }
 
 .view-boxset {
