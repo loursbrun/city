@@ -60,7 +60,6 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
-
         }
 
     }
@@ -91,6 +90,10 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     $log.log("book_imgs_2 :" +  $scope.book_imgs_2) ;
     $log.log("book_imgs_3 :" +  $scope.book_imgs_3) ;
     $log.log("book_imgs_4 :" +  $scope.book_imgs_4) ;
+    $log.log("book_imgs_5 :" +  $scope.book_imgs_5) ;
+    $log.log("book_imgs_6 :" +  $scope.book_imgs_6) ;
+    $log.log("book_imgs_7 :" +  $scope.book_imgs_7) ;
+
 
 
 
