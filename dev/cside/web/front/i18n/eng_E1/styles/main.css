@@ -361,12 +361,11 @@ html {
   text-align: center;
   text-transform: uppercase;
   color: #4f332e;
-  margin-right: 20%;
 }
 .view-book .content-book h1 span {
-  position: absolute;
-  width: 50px;
-  height: 50px;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
   background: url("../../../assets/images/common/badge.png");
   background-size: 50px 50px;
   background-repeat: no-repeat;
@@ -404,9 +403,7 @@ html {
 }
 .view-book .content-book .title-book {
   position: relative;
-  width: 100%;
-  height: 80px;
-  margin-bottom: 25px;
+  padding: 50px;
 }
 .view-book .slideshow {
   position: absolute;
