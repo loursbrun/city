@@ -207,9 +207,12 @@
     left: 10px;
     width: 120px;
     background-color: white;
+    opacity: 0.7;
     top: 55px;
     cursor: pointer;
     padding-left: 5px;
+
+
 
     p {
       position: relative;
@@ -223,13 +226,18 @@
 
     }
 
+
   }
+
+
+
 
   .btnHeaderSecond{
     position: absolute;
     left: 10px;
     width: 150px;
     background-color: white;
+    opacity: 0.7;
     top: 90px;
     cursor: pointer;
     padding-left: 5px;
@@ -250,6 +258,7 @@
     left: 10px;
     width: 150px;
     background-color: white;
+    opacity: 0.7;
     top: 125px;
     cursor: pointer;
     padding-left: 5px;
@@ -295,6 +304,14 @@
 
     }
   }
+
+
+
+  .btnHeaderFirst:hover, .btnHeaderSecond:hover, .btnHeaderThird:hover{
+    opacity: 1;
+    transition: all 0.5s ease 0s;
+  }
+
 
 
 

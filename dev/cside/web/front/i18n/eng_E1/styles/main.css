@@ -456,6 +456,7 @@ html {
   left: 10px;
   width: 120px;
   background-color: white;
+  opacity: 0.7;
   top: 55px;
   cursor: pointer;
   padding-left: 5px;
@@ -474,6 +475,7 @@ html {
   left: 10px;
   width: 150px;
   background-color: white;
+  opacity: 0.7;
   top: 90px;
   cursor: pointer;
   padding-left: 5px;
@@ -491,6 +493,7 @@ html {
   left: 10px;
   width: 150px;
   background-color: white;
+  opacity: 0.7;
   top: 125px;
   cursor: pointer;
   padding-left: 5px;
@@ -519,6 +522,10 @@ html {
 }
 .view-book .btnHeaderFifth {
   cursor: pointer;
+}
+.view-book .btnHeaderFirst:hover, .view-book .btnHeaderSecond:hover, .view-book .btnHeaderThird:hover {
+  opacity: 1;
+  transition: all 0.5s ease 0s;
 }
 .view-book .tint {
   position: absolute;

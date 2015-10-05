@@ -83,7 +83,7 @@
                 "color": "#ed0088",
                 "badge": "t",
                 "inversed_layout": false,
-                "video_link":false,
+                "video_link":true,
                 "imgs": [
                     "cities/tokyo/032194h.jpg",
                     "cities/tokyo/032191h.jpg",
@@ -113,7 +113,7 @@
                 "color": "#8a60a3",
                 "badge": "bl",
                 "inversed_layout": false,
-                "video_link":false,
+                "video_link":true,
                 "imgs": [
                     "cities/london/032003h.jpg",
                     "cities/london/032006h.jpg",
@@ -233,7 +233,7 @@
                 "color": "#c79439",
                 "badge": "tr",
                 "inversed_layout": true,
-                "video_link":false,
+                "video_link":true,
                 "imgs": [
                     "cities/new-york/032072h.jpg",
                     "cities/new-york/032078h.jpg",
@@ -248,7 +248,7 @@
                 "color": "#d4753c",
                 "badge": "tr",
                 "inversed_layout": false,
-                "video_link":false,
+                "video_link":true,
                 "imgs": [
                     "cities/hong-kong/031969h.jpg",
                     "cities/hong-kong/031970h.jpg",

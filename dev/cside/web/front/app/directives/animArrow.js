@@ -16,6 +16,7 @@ app.directive('animArrow', ['$log', 'DeviceDetector', function ($log, $device) {
                 var arrow =  angular.element(document.querySelector("." + arrowId));
                 TweenMax.to(arrow,0.3,{delay:0,x:"50%",force3D:true});
                 TweenMax.to(arrow,0.3,{delay:0.2,x:"-50%",force3D:true});
+
             }
 
             scope.arrowMouseOut = function(arrowId){
