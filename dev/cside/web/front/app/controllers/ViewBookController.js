@@ -43,6 +43,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
             $scope.book_name = $scope.books_object[i].id ;
             $scope.book_color = $scope.books_object[i].color ;
             $scope.book_inversed_layout = $scope.books_object[i].inversed_layout ;
+            $scope.book_video_link = $scope.books_object[i].video_link ;
             $scope.book_badge = $scope.books_object[i].badge ;
             $scope.book_img_number = $scope.books_object[i].imgs.length ;
             $scope.book_imgs_1 = $scope.books_object[i].imgs[0] ;
@@ -84,6 +85,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     $log.log("book_color :" +  $scope.book_color) ;
     $log.log("book_color_tint :" + $scope.book_color_tint);
     $log.log("book_inversed_layout :" +  $scope.book_inversed_layout) ;
+    $log.log("book_video_link :" +  $scope.book_video_link) ;
     $log.log("book_badge :" +  $scope.book_badge) ;
     $log.log("book_img_number :" +  $scope.book_img_number) ;
     $log.log("book_imgs_1 :" +  $scope.book_imgs_1) ;

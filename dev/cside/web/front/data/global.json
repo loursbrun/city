@@ -38,6 +38,7 @@
                 "color": "#f47236",
                 "badge": "tr",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/mexico/032156h.jpg",
                     "cities/mexico/032163h.jpg",
@@ -52,6 +53,7 @@
                 "color": "#ef3046",
                 "badge": "tl",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/beijing/032105h.jpg",
                     "cities/beijing/032106h.jpg",
@@ -66,6 +68,7 @@
                 "color": "#c36970",
                 "badge": "tr",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/los-angeles/032021h.jpg",
                     "cities/los-angeles/032027h.jpg",
@@ -80,6 +83,7 @@
                 "color": "#ed0088",
                 "badge": "t",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/tokyo/032194h.jpg",
                     "cities/tokyo/032191h.jpg",
@@ -94,6 +98,7 @@
                 "color": "#bd4f99",
                 "badge": "tr",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/venice/032207h.jpg",
                     "cities/venice/032220h.jpg",
@@ -108,6 +113,7 @@
                 "color": "#8a60a3",
                 "badge": "bl",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/london/032003h.jpg",
                     "cities/london/032006h.jpg",
@@ -122,6 +128,7 @@
                 "color": "#7272b0",
                 "badge": "bl",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/seoul/032140h.jpg",
                     "cities/seoul/032144h.jpg",
@@ -136,6 +143,7 @@
                 "color": "#2684c1",
                 "badge": "tl",
                 "inversed_layout": false,
+                "video_link":true,
                 "imgs": [
                     "cities/paris/PARIS_Coulon-02.jpg",
                     "cities/paris/PARIS_Coulon-03.jpg",
@@ -150,6 +158,7 @@
                 "color": "#00a0d5",
                 "badge": "b",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/sydney/032174h.jpg",
                     "cities/sydney/032173h.jpg",
@@ -164,6 +173,7 @@
                 "color": "#00aaa8",
                 "badge": "t",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/moscow/032054h.jpg",
                     "cities/moscow/032055h.jpg",
@@ -178,6 +188,7 @@
                 "color": "#28b785",
                 "badge": "bl",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/miami/032037h.jpg",
                     "cities/miami/032038h.jpg",
@@ -192,6 +203,7 @@
                 "color": "#00934f",
                 "badge": "br",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/sao-paulo/032123h.jpg",
                     "cities/sao-paulo/032122h.jpg",
@@ -206,6 +218,7 @@
                 "color": "#92a23c",
                 "badge": "bl",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/cape-town/031986h.jpg",
                     "cities/cape-town/031993h.jpg",
@@ -220,6 +233,7 @@
                 "color": "#c79439",
                 "badge": "tr",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/new-york/032072h.jpg",
                     "cities/new-york/032078h.jpg",
@@ -234,6 +248,7 @@
                 "color": "#d4753c",
                 "badge": "tr",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/hong-kong/031969h.jpg",
                     "cities/hong-kong/031970h.jpg",
@@ -249,6 +264,7 @@
                 "color": "#e98800",
                 "badge": "bl",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/berlin/BERLIN_Tourneboeuf-01.jpg",
                     "cities/berlin/BERLIN_Tourneboeuf-02.jpg",
@@ -262,6 +278,7 @@
                 "color": "#a26288",
                 "badge": "tr",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/istanbul/ISTANBUL_Ardouin_01.jpg",
                     "cities/istanbul/ISTANBUL_Ardouin_02.jpg",
@@ -275,6 +292,7 @@
                 "color": "#d24747",
                 "badge": "br",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/milan/MILAN_Willaume_01.jpg",
                     "cities/milan/MILAN_Willaume_02.jpg",
@@ -290,6 +308,7 @@
                 "color": "#c1873a",
                 "badge": "tl",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/rio/RIO_Bourges_01.jpg",
                     "cities/rio/RIO_Bourges_02.jpg",
@@ -304,6 +323,7 @@
                 "color": "#02ac9f",
                 "badge": "tl",
                 "inversed_layout": false,
+                "video_link":false,
                 "imgs": [
                     "cities/shanghai/SHANGHAI_Meunier_02.jpg",
                     "cities/shanghai/SHANGHAI_Meunier_03.jpg",
@@ -317,6 +337,7 @@
                 "color": "#abc549",
                 "badge": "b",
                 "inversed_layout": true,
+                "video_link":false,
                 "imgs": [
                     "cities/singapore/SINGAPOUR_Culmann_01.jpg",
                     "cities/singapore/SINGAPOUR_Culmann_02.jpg",
