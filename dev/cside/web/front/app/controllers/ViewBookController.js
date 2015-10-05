@@ -66,8 +66,24 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     }
 
 
+    // Function to convert Hexa color to RGBA fot tint of slideshow
+    function convertHex(hex,opacity){
+        hex = hex.replace('#','');
+        r = parseInt(hex.substring(0,2), 16);
+        g = parseInt(hex.substring(2,4), 16);
+        b = parseInt(hex.substring(4,6), 16);
+
+        result = 'rgba('+r+','+g+','+b+','+opacity/100+')';
+        $scope.book_color_tint = result;
+        return result;
+    }
+    convertHex($scope.book_color,30);
+
+
+
     $log.log("book_name :" +  $scope.book_name) ;
     $log.log("book_color :" +  $scope.book_color) ;
+    $log.log("book_color_tint :" + $scope.book_color_tint);
     $log.log("book_inversed_layout :" +  $scope.book_inversed_layout) ;
     $log.log("book_badge :" +  $scope.book_badge) ;
     $log.log("book_img_number :" +  $scope.book_img_number) ;

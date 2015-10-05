@@ -540,18 +540,7 @@ html {
   width: 100%;
   margin: 0px;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
-  -webkit-animation: fade 24s 18s infinite;
-}
-.view-book .tint:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(239, 48, 70, 0.3);
+  transition: all .1s linear;
   -webkit-animation: fade 6s infinite;
   animation-delay: -2s;
 }
