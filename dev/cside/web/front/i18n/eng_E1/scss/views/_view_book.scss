@@ -17,7 +17,7 @@
     position: absolute;
     width: 50%;
     height: 100%;
-    left:0;
+    left:0%;
     background-color: #f7f7f7;
 
     @media screen and (max-width: 768px) {
@@ -98,7 +98,7 @@
     position: absolute;
     width: 50%;
     height: 100%;
-    right: 0;
+    left: 50%;
     background-size:contain;
 
     @media screen and (max-width: 768px) {
@@ -230,7 +230,7 @@
     left: 10px;
     width: 150px;
     background-color: white;
-    top: 100px;
+    top: 90px;
     cursor: pointer;
     padding-left: 5px;
 
@@ -250,7 +250,7 @@
     left: 10px;
     width: 150px;
     background-color: white;
-    top: 150px;
+    top: 125px;
     cursor: pointer;
     padding-left: 5px;
 
@@ -300,7 +300,7 @@
 
   .tint {
     position: absolute;
-    z-index: 150;
+    //z-index: 150;
     float: left;
     height: 100%;
     width: 100%;
