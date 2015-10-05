@@ -170,6 +170,7 @@ $baseFontColor : #4f332e;
     padding: 3.75px 7.5px;
     display: inline-block;
     vertical-align: bottom;
+    cursor: pointer;
 
 
     img {
@@ -178,6 +179,7 @@ $baseFontColor : #4f332e;
       max-height: 120px;
       padding-right: 20px;
       margin: 0 auto;
+      cursor: pointer;
     }
     .city {
       display: block;
