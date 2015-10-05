@@ -9,13 +9,13 @@
 
 
 
-    <div class="content-book" style="left:{{book_inversed_layout === false ? '100' : '0'}}%">
+    <div class="content-book" style="left:{{book_inversed_layout === true ? '100' : '0'}}%">
 
 
 
 
         <div class="title-book">
-        <h1 style='color:{{book_color}};'><span>{{book_name}}</span></h1>
+        <h1 style='color:{{book_color}};'><span class="{{book_badge}}">{{book_name}}</span></h1>
         </div>
 
 
@@ -70,7 +70,7 @@
 
 
 
-<div class='slideshow' style="left:{{book_inversed_layout === false ? '0' : '50'}}%">
+<div class='slideshow' style="left:{{book_inversed_layout === true ? '0' : '50'}}%">
 
 
         <div id="slide1" class="slide" style="background: url('../deploy/deploy/assets/images/{{book_imgs_1}}');position: absolute;width: 100%;height: 100%;background-size: cover; background-repeat: no-repeat;background-position: center;-webkit-animation: fade {{book_img_number*6}}s {{book_img_number*6 - 6}}s infinite;" ></div>
