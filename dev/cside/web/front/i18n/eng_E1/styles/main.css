@@ -129,7 +129,7 @@ html {
   pointer-events: all;
   display: inline-block;
   background: #555;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 10px 5px 20px;
   border: 1px solid white;
   text-transform: uppercase;
 }
@@ -213,7 +213,6 @@ html {
 .view-cityguides #pdf {
   position: relative;
   left: 50%;
-  margin: 15 auto;
   opacity: 1;
   color: white;
   background-color: #4f332e;
@@ -223,10 +222,11 @@ html {
   /* Safari */
   transform: translate(-50%, 0);
   margin-bottom: 0;
+  margin: 0;
 }
 .view-cityguides .arrow-white, .view-cityguides .arrow-white-pdf {
-  position: relative;
-  float: left;
+  position: absolute;
+  left: 8%;
   width: 0;
   height: 0;
   border-top: 4px solid transparent;
@@ -251,11 +251,6 @@ html {
 .view-cityguides a {
   font-family: "LouisVuitton-N", sans-serif;
   font-size: 12px;
-  margin: 0;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
 }
 .view-cityguides a p {
   position: relative;
