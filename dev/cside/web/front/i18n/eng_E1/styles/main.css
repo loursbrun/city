@@ -59,6 +59,7 @@ html {
 
 .page .animation_container {
   overflow: auto;
+  background-color: black;
 }
 
 .page {
