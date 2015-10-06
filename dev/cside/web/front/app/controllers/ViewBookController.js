@@ -15,6 +15,9 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
+
+
+
     $log.log($state.params.city) ;
     $scope.book_page = $state.params.city;
 

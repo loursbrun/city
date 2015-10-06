@@ -19,4 +19,6 @@ app.controller("ViewExceptionalcaseController", ['$scope', '$log', 'DeviceDetect
 
 
 
+
+
 }]);

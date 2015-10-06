@@ -58,7 +58,7 @@ html {
 }
 
 .page .animation_container {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .page {
@@ -185,7 +185,6 @@ html {
 }
 
 .view-cityguides {
-  overflow: scroll;
   background-color: #f7f7f7;
 }
 .view-cityguides #head {
@@ -295,6 +294,11 @@ html {
   margin-left: 41px;
   margin-top: 0;
 }
+.view-cityguides .coverflow {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
 .view-cityguides .coverflow li {
   width: 120px;
   padding: 3.75px 7.5px;
@@ -306,7 +310,6 @@ html {
   display: block;
   width: auto;
   max-height: 120px;
-  padding-right: 20px;
   margin: 0 auto;
   cursor: pointer;
 }

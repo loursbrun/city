@@ -17,6 +17,7 @@ app.controller("ViewCityguidesController", ['$scope', '$log', 'DeviceDetector', 
 
 
 
+  //  .animation_container
 
 
 

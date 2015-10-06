@@ -8,7 +8,7 @@ $baseFontColor : #4f332e;
 .view-cityguides
 {
 
-  overflow: scroll;
+
   background-color: #f7f7f7;
 
 
@@ -168,6 +168,10 @@ $baseFontColor : #4f332e;
 
 .coverflow {
 
+position: relative;
+  margin: 0;
+  padding: 0;
+
 
 
   li {
@@ -182,7 +186,7 @@ $baseFontColor : #4f332e;
       display: block;
       width: auto;
       max-height: 120px;
-      padding-right: 20px;
+     // padding-right: 20px;
       margin: 0 auto;
       cursor: pointer;
     }
