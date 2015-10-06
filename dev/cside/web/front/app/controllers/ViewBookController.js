@@ -109,6 +109,61 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     }
 
 
+  // Slider animation
+
+
+    $scope.timer_slideshow_speed = 6;
+    $scope.timer_slideshow_animation = 2;
+
+    $scope.tint =  angular.element(document.querySelector(".tint"));
+
+    $scope.slide1 =  angular.element(document.querySelector("#slide1"));
+    $scope.slide2 =  angular.element(document.querySelector("#slide2"));
+    $scope.slide3 =  angular.element(document.querySelector("#slide3"));
+    $scope.slide4 =  angular.element(document.querySelector("#slide4"));
+    $scope.slide5 =  angular.element(document.querySelector("#slide5"));
+    $scope.slide6 =  angular.element(document.querySelector("#slide6"));
+    $scope.slide7 =  angular.element(document.querySelector("#slide7"));
+    $scope.slide8 =  angular.element(document.querySelector("#slide8"));
+
+
+    var i = 1;
+
+
+    setInterval(function() {
+
+        i = i + 1;
+        if (i > ($scope.book_img_number )) {i = 1}
+        $log.log("#slide"+ [i]) ;
+
+
+        TweenMax.to($scope.slide1,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
+        TweenMax.to($scope.slide2,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
+        TweenMax.to($scope.slide3,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
+        TweenMax.to($scope.slide4,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
+        TweenMax.to($scope.slide5,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
+        TweenMax.to($scope.slide6,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
+        TweenMax.to($scope.slide7,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
+        TweenMax.to($scope.slide8,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
+
+        TweenMax.to($scope.tint,$scope.timer_slideshow_animation/2,{opacity:0.5, force3D:true});
+        TweenMax.to($scope.tint,$scope.timer_slideshow_animation/2,{delay:$scope.timer_slideshow_animation/2, opacity:0, force3D:true});
+
+
+
+        slideNext =  angular.element(document.querySelector("#slide"+ [i]));
+        TweenMax.to(slideNext,$scope.timer_slideshow_animation,{opacity:1, force3D:true});
+
+
+
+    }, $scope.timer_slideshow_speed * 1000);
+
+
+
+
+
+
+
 
 }]);
 

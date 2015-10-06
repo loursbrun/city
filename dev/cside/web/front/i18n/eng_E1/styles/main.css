@@ -425,8 +425,8 @@ html {
   pointer-events: none;
 }
 .view-book .arrow-brown-fourth {
-  margin-top: 5px;
-  float: left;
+  position: relative;
+  margin-top: 103px;
   cursor: pointer;
 }
 .view-book .arrow-brown-fifth {
@@ -496,7 +496,7 @@ html {
   font-size: 13px;
 }
 .view-book .btnHeaderFourth {
-  position: absolute;
+  position: relative;
   left: 10px;
   width: 150px;
   cursor: pointer;
@@ -522,9 +522,6 @@ html {
   height: 100%;
   width: 100%;
   margin: 0px;
-  cursor: pointer;
-  -webkit-animation: fade 6s infinite;
-  animation-delay: -0.5s;
   cursor: auto;
 }
 .view-book .li-container {
@@ -547,26 +544,8 @@ html {
   position: absolute;
 }
 
-@-webkit-keyframes fade {
-  0% {
-    opacity: 1;
-  }
-
-  15% {
-    opacity: 1;
-  }
-
-  25% {
-    opacity: 0;
-  }
-
-  90% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+#slide2, #slide3, #slide4, #slide5, #slide6, #slide7, #slide8, .tint {
+  opacity: 0;
 }
 
 .view-exceptionalcase {
