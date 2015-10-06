@@ -11,8 +11,6 @@
   background-color: #f7f7f7;
 
 
-
-
   .book-container {
     position: absolute;
     width: 50%;
@@ -20,11 +18,6 @@
     left:0%;
     background-color: #f7f7f7;
 
-    @media screen and (max-width: 768px) {
-      width: 100%;
-      height: 60%;
-      top:40%;
-    }
 
   }
 
@@ -34,7 +27,7 @@
     position: relative;
     width: 80%;
     margin-left: 10%;
-    top: 30%;
+    top: 20%;
     text-align: left;
 
 
@@ -47,44 +40,7 @@
       text-align: center;
       text-transform: uppercase;
       color: #4f332e;
-      //margin-right: 20%;
 
-
-/*
-      span {
-        display: inline-block;
-        position: relative;
-        margin: 0 auto;
-        background: url("../../../assets/images/common/badge.png");
-        background-size: 50px 50px;
-        background-repeat: no-repeat;
-      }
-
-      .tl {
-        background-position: left;
-        padding: 75px 0px 0px 0px;
-      }
-      .tr {
-        background-position: right;
-        padding: 100px 80px 0px 0px;
-      }
-      .bl {
-        background-position: left;
-        padding: 0px 80px 55px 0px;
-      }
-      .br {
-        background-position: right;
-        padding: 0px 80px 55px 0px;
-      }
-      .t {
-        background-position: center;
-        padding: 100px 80px 0px 0px;
-      }
-      .b {
-        background-position: center;
-        padding: 0px 80px 55px 0px;
-      }
-*/
 
 
       span {
@@ -129,7 +85,6 @@
       }
 
 
-
     }
 
     p {
@@ -144,21 +99,18 @@
 
     .title-book {
       position: relative;
-     // width: 100%;
-     // height: 50px;
-     // margin-bottom: 25px;
-      padding: 50px;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
 
 
+    .description {
+      position: relative;
 
+    }
 
 
   }
-
-
-
-
 
 
 
@@ -168,66 +120,9 @@
     height: 100%;
     left: 50%;
     background-size:contain;
-
-    @media screen and (max-width: 768px) {
-      width: 100%;
-      height: 40%;
-      top:0;
-      padding-top: -50px;
-    }
+    cursor: none;
 
 
-    #slide1 {
-
-      //background: url("../../../assets/images/cities/beijing/032105h.jpg") ;
-     // position: absolute;
-     // width: 100%;
-     // height: 100%;
-     // background-size: cover;
-     // background-repeat: no-repeat;
-      //background-position: center;
-
-
-    }
-
-    #slide2 {
-
-      //background: url("../../../assets/images/cities/beijing/032106h.jpg") ;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-
-
-    }
-
-    #slide3 {
-
-      //background: url("../../../assets/images/cities/beijing/032107h.jpg") ;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-
-
-    }
-
-    #slide4, #slide5, #slide6, #slide7, #slide8 {
-
-      //background: url("../../../assets/images/cities/beijing/032109h.jpg") ;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-
-
-    }
 
   }
 
@@ -395,6 +290,7 @@
      //transition: all 0s linear;
     -webkit-animation: fade 6s infinite;
     animation-delay: -0.5s;
+    cursor: auto;
   }
 
 
@@ -423,19 +319,11 @@
 }
 
 
-.page #animationContent {
-  @media screen and (max-width: 768px) {
-    padding-top: 0px ;
-    padding-bottom: 0;
-  }
-}
-
 
 .slide {
   position: absolute;
 
 }
-
 
 
 

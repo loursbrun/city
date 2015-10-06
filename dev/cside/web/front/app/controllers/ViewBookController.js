@@ -24,6 +24,11 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
+    // Size of screen
+    $scope.windowWidth = $("body").innerWidth();
+    $scope.windowHeight = $("body").innerHeight();
+
+
 
     // Number of books
     $scope.books_object = model.global.books;
@@ -59,8 +64,6 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
-
-
         }
 
     }
@@ -80,7 +83,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     convertHex($scope.book_color,30);
 
 
-
+    $log.log("Windows Width :" + $scope.windowWidth);
     $log.log("book_name :" +  $scope.book_name) ;
     $log.log("book_color :" +  $scope.book_color) ;
     $log.log("book_color_tint :" + $scope.book_color_tint);
@@ -98,10 +101,12 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
+// Split Slider up & Content bootom if screen width < 768
 
-
-
-
+    if($scope.windowWidth < 768){
+        $scope.slideshow = angular.element(document.querySelector(".slideshow"));
+        //TweenMax.to($scope.slideshow,1,{delay:0,x:"-50%",force3D:true});
+    }
 
 
 
