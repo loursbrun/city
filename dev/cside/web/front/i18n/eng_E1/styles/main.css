@@ -221,8 +221,6 @@ html {
   -webkit-transform: translate(-50%, 0);
   /* Safari */
   transform: translate(-50%, 0);
-  margin-bottom: 0;
-  margin: 0;
 }
 .view-cityguides .arrow-white, .view-cityguides .arrow-white-pdf {
   position: absolute;
@@ -256,7 +254,7 @@ html {
   position: relative;
   margin: 0;
   padding: 0;
-  width: 110px;
+  width: 120px;
   font-weight: bold;
   pointer-events: none;
 }
