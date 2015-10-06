@@ -130,7 +130,7 @@ html {
   pointer-events: all;
   display: inline-block;
   background: #555;
-  padding: 5px 10px 5px 20px;
+  padding: 6px 6px 6px 20px;
   border: 1px solid white;
   text-transform: uppercase;
 }
@@ -292,7 +292,7 @@ html {
   font-size: 13px;
 }
 .view-cityguides .book-container {
-  margin-left: 41px;
+  margin-left: 42px;
   margin-top: 0;
 }
 .view-cityguides .coverflow {

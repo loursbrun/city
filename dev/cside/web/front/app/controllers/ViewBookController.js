@@ -67,6 +67,8 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
+
+
         }
 
     }
@@ -137,7 +139,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
         i = i + 1;
         if (i > ($scope.book_img_number )) {i = 1}
-        $log.log("#slide"+ [i]) ;
+       // $log.log("#slide"+ [i]) ;
 
 
         TweenMax.to($scope.slide1,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
