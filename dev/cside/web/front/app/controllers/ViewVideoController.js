@@ -8,14 +8,13 @@
 // @author Didier Brun
 //
 
-app.controller("ViewVideoController", ['$scope', '$window', '$log', 'DeviceDetector', function ViewVideoController($scope, $window, $log, device)
+app.controller("ViewVideoController", ['$scope', '$window', '$log', 'DeviceDetector','$state', function ViewVideoController($scope, $window, $log, device, $state)
 {
 
 
 
-
-
-
+    $scope.city = $state.params.city;
+    $log.log($scope.city);
 
     $log.log("View Video Controller");
 
@@ -25,8 +24,6 @@ app.controller("ViewVideoController", ['$scope', '$window', '$log', 'DeviceDetec
 
 
     };
-
-
 
 
 
