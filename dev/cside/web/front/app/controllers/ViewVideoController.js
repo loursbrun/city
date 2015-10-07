@@ -18,9 +18,6 @@ app.controller("ViewVideoController", ['$scope', '$window', '$log', 'DeviceDetec
 
 
 
-
-
-
     $log.log("View Video Controller");
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);

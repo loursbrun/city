@@ -222,13 +222,21 @@ app.directive('videoMobile', ['$log', '$window', 'AnimationModel', '$freeCasterU
 app.directive('viewVideo', ['$log', '$window', 'AnimationModel', '$freeCasterUtils',  '$timeout', '$state', 'DeviceDetector', 'TrackerUtils', '$rootScope', function ($log, $window, $model, $freecaster, $timeout, $state, $device, $tracker, $root)
 {
 
-    function link(scope, element, attrs)
+    function link(scope, element, attrs, model)
     {
 
 
-
-        $log.log("cououuuuuuuuuuu");
+        $log.log("OOOOuuuuuuuuuuuuuuuuuuuuuuuuu");
         $log.log("City : " + scope.currentCity);
+
+
+
+
+        // ID Freecaster in Localised.json
+        scope.video_id = $model.localized.labels_dictionaries[scope.currentCity].video;
+        $log.log("Video_id : " + scope.video_id);
+
+
 
 
         var forceScrollTop = function(){
@@ -242,7 +250,8 @@ app.directive('viewVideo', ['$log', '$window', 'AnimationModel', '$freeCasterUti
         }
         forceScrollTop();
         var cookie_name = "timeVideo_xavier_dolan";
-        var default_video_id = $model.global.videos.default_video_id;
+        // var default_video_id = $model.global.videos.default_video_id;     // Before
+        var default_video_id = scope.video_id;        // after
         var id_video = "fcplayer";
         /// scope.path = $model.path+'assets/images/';
         scope.havePlayed = false;

@@ -27,7 +27,7 @@ angular.module('Bootstrap').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('html/views/view_video.html',
-    "<div view-video class=\"view-video\"><div view-video id=\"view_video\" class=\"view-video\" anim-arrow city=\"currentCity\"><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\" ng-click=\"pathTo('book',{city:city})\"><div class=\"arrow-right\"></div><p>Skip the video</p></div></div>"
+    "<div view-video class=\"view-video\"><div view-video id=\"view_video\" class=\"view-video\" anim-arrow city=\"currentCity\"><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\" ng-click=\"pathTo('book',{city:currentCity})\"><div class=\"arrow-right\"></div><p>Skip the video</p></div></div>"
   );
 
 }]);
