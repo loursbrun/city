@@ -124,6 +124,11 @@ $baseFontColor : #4f332e;
     top: 55px;
     cursor: pointer;
 
+    .phone & {
+     // position: relative;
+     // vertical-align: bottom;
+    }
+
     p {
       position: relative;
       margin: 0;
@@ -160,17 +165,22 @@ $baseFontColor : #4f332e;
 
 
 .book-container {
-  margin-left: 42px;
+  margin-left: 20px;
+  //margin-left: 10%;
   margin-top: 0;
   }
 
 
-
 .coverflow {
 
-position: relative;
+  position: relative;
   margin: 0;
   padding: 0;
+
+
+
+
+
 
 
 
@@ -180,6 +190,9 @@ position: relative;
     display: inline-block;
     vertical-align: bottom;
     cursor: pointer;
+
+
+
 
 
     img {

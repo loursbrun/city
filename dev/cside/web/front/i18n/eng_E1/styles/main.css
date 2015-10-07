@@ -292,7 +292,7 @@ html {
   font-size: 13px;
 }
 .view-cityguides .book-container {
-  margin-left: 42px;
+  margin-left: 20px;
   margin-top: 0;
 }
 .view-cityguides .coverflow {
@@ -918,6 +918,56 @@ html {
 
 .slide {
   position: absolute;
+}
+
+.view-video {
+  background-color: black;
+}
+.view-video .skip-btn {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  background: black;
+  opacity: 0.4;
+  right: 0;
+  top: 50%;
+  cursor: pointer;
+  width: 105px;
+  text-align: center;
+}
+.view-video .skip-btn p {
+  position: relative;
+  float: right;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "LouisVuitton-N", sans-serif;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  pointer-events: none;
+}
+.view-video .arrow-right {
+  position: absolute;
+  float: left;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid white;
+  margin-top: 8px;
+  margin-left: 8px;
+  pointer-events: none;
+}
+
+.view-video {
+  position: static;
+  top: initial;
+  left: initial;
+  width: 100%;
+  color: black;
+  background-color: black;
 }
 
 .page #back-btn {
