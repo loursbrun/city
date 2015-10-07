@@ -22,12 +22,12 @@ angular.module('Bootstrap').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('html/views/view_home.html',
-    "<div view-home id=\"view_home\" class=\"view-home\"><div view-video id=\"view_video\" class=\"view-video\" anim-arrow><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\" ng-click=\"pathTo('cityguides')\"><div class=\"arrow-right\"></div><p>Skip the video</p></div></div>"
+    "<div view-home id=\"view_home\" class=\"view-home\"><div view-video id=\"view_video\" class=\"view-video\" anim-arrow city=\"currentCity\"><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\" ng-click=\"pathTo('cityguides')\"><div class=\"arrow-right\"></div><p>Skip the video</p></div></div>"
   );
 
 
   $templateCache.put('html/views/view_video.html',
-    "<div view-video id=\"view_video\" class=\"view-video\"><div view-video id=\"view_video\" class=\"view-video\" anim-arrow><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\" ng-click=\"pathTo('book',{city:city})\"><div class=\"arrow-right\"></div><p>Skip the video</p></div></div>"
+    "<div view-video class=\"view-video\"><div view-video id=\"view_video\" class=\"view-video\" anim-arrow city=\"currentCity\"><div id=\"fcplayer_container\" video-mobile class=\"video-mobile\"></div></div><div class=\"skip-btn\" ng-mouseover=\"animSkipBtnOn()\" ng-mouseleave=\"animSkipBtnOff()\" ng-click=\"pathTo('book',{city:city})\"><div class=\"arrow-right\"></div><p>Skip the video</p></div></div>"
   );
 
 }]);

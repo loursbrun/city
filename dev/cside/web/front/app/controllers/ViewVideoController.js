@@ -12,9 +12,14 @@ app.controller("ViewVideoController", ['$scope', '$window', '$log', 'DeviceDetec
 {
 
 
+    $scope.currentCity = $state.params.city;
+    $log.log($scope.currentCity);
 
-    $scope.city = $state.params.city;
-    $log.log($scope.city);
+
+
+
+
+
 
     $log.log("View Video Controller");
 

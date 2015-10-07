@@ -10,6 +10,7 @@ app.controller ("AppController", ['$log', '$scope', '$state', 'AnimationModel', 
 
     $scope.texts = model.localized.texts;
 
+
     window.setContentSize = function(){
         device.updateDeviceCSS();
     }

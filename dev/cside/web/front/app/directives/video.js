@@ -4,6 +4,9 @@
 app.directive('videoMobile', ['$log', '$window', 'AnimationModel', '$freeCasterUtils',  '$timeout', '$state', 'DeviceDetector', 'TrackerUtils', function ($log, $window, $model, $freecaster, $timeout, $state, $device, $tracker)
 {
 
+
+
+
     function link(scope, element, attrs)
     {
 
@@ -11,6 +14,10 @@ app.directive('videoMobile', ['$log', '$window', 'AnimationModel', '$freeCasterU
         var default_video_id = $model.global.videos.default_video_id;
         var id_video = "fcplayer";
         scope.currentState = "default";
+
+
+
+
 
         function setup()
         {
@@ -217,6 +224,12 @@ app.directive('viewVideo', ['$log', '$window', 'AnimationModel', '$freeCasterUti
 
     function link(scope, element, attrs)
     {
+
+
+
+        $log.log("cououuuuuuuuuuu");
+        $log.log("City : " + scope.currentCity);
+
 
         var forceScrollTop = function(){
             console.log("$(window).scrollTop()",$(window).scrollTop());

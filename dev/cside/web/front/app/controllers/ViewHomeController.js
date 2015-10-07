@@ -12,7 +12,7 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
 
 
 
-
+    $scope.currentCity = "default";
 
     $log.log("View Home Controller");
 
