@@ -8,12 +8,18 @@
 // @author Fabien Brun
 //
 
-app.controller("ViewExceptionalcaseController", ['$scope', '$log', 'DeviceDetector', function ViewExceptionalcaseController($scope, $log, device)
+app.controller("ViewExceptionalcaseController", ['$scope', '$log', 'DeviceDetector','AnimationModel', function ViewExceptionalcaseController($scope, $log, device, model)
 {
 
     $log.log("View Excetionalcase Controller");
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
+
+
+
+    // Sku
+    $scope.book_sku = model.localized.labels_dictionaries["exceptional-case"].sku ;
+
 
     // Hide BackBttn
     $scope.backBtn =  angular.element(document.querySelector("#back-btn"));
