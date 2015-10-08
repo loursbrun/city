@@ -164,6 +164,8 @@ $baseFontColor : #4f332e;
   }
 
 
+
+
 .book-container {
   margin-left: 20px;
   //margin-left: 10%;
@@ -176,9 +178,9 @@ $baseFontColor : #4f332e;
   position: relative;
   margin: 0;
   padding: 0;
-
-
-
+  text-align: center;
+  left: 0;
+  margin-right: 10px;
 
 
 
@@ -199,7 +201,7 @@ $baseFontColor : #4f332e;
       display: block;
       width: auto;
       max-height: 120px;
-     // padding-right: 20px;
+      padding-right: 20px;
       margin: 0 auto;
       cursor: pointer;
     }
@@ -216,11 +218,39 @@ $baseFontColor : #4f332e;
 
   }
 
-
-
-
-
 }
+
+///////  Mobile CSS  &.phone
+  .phone & {
+
+    .header-btn {
+      position: relative;
+      height: 150px;
+
+    }
+
+    .btnHeaderFirst , .btnHeaderSecond {
+      padding-left: 10px;
+
+
+    }
+
+
+
+
+
+  }   // end .phone &
+/// End Mobile CSS
+
+
+
+
+
+
+
+
+
+
 
 
 
