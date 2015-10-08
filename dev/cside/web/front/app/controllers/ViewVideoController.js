@@ -22,10 +22,11 @@ app.controller("ViewVideoController", ['$scope', '$window', '$log', 'DeviceDetec
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
 
-    $scope.showBtn = function($scope, element, attrs){
 
 
-    };
+    // Hide BackBttn
+    $scope.backBtn =  angular.element(document.querySelector("#back-btn"));
+    TweenMax.to($scope.backBtn,0,{opacity:0,scaleX:0,  force3D:true});
 
 
 

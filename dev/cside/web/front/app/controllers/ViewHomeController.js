@@ -18,12 +18,9 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
 
-    $scope.showBtn = function($scope, element, attrs){
-
-
-    };
-
-
+    // Show BackBttn
+    $scope.backBtn =  angular.element(document.querySelector("#back-btn"));
+    TweenMax.to($scope.backBtn,0,{opacity:1,scaleX:1, force3D:true});
 
 
 

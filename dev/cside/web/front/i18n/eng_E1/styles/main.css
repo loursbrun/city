@@ -59,7 +59,7 @@ html {
 
 .page .animation_container {
   overflow: auto;
-  background-color: black;
+  background-color: white;
 }
 
 .page {
@@ -448,7 +448,7 @@ html {
   width: 120px;
   background-color: white;
   opacity: 0.7;
-  top: 55px;
+  top: 15px;
   cursor: pointer;
   padding-left: 5px;
 }
@@ -467,7 +467,7 @@ html {
   width: 150px;
   background-color: white;
   opacity: 0.7;
-  top: 90px;
+  top: 50px;
   cursor: pointer;
   padding-left: 5px;
 }
@@ -485,7 +485,7 @@ html {
   width: 150px;
   background-color: white;
   opacity: 0.7;
-  top: 125px;
+  top: 85px;
   cursor: pointer;
   padding-left: 5px;
 }
@@ -662,7 +662,7 @@ html {
   left: 10px;
   width: 180px;
   background-color: white;
-  top: 55px;
+  top: 15px;
   cursor: pointer;
   padding-left: 5px;
 }
@@ -680,7 +680,7 @@ html {
   left: 10px;
   width: 150px;
   background-color: white;
-  top: 80px;
+  top: 40px;
   cursor: pointer;
   padding-left: 5px;
 }
@@ -847,7 +847,7 @@ html {
   left: 10px;
   width: 180px;
   background-color: white;
-  top: 55px;
+  top: 15px;
   cursor: pointer;
   padding-left: 5px;
 }
@@ -865,7 +865,7 @@ html {
   left: 10px;
   width: 130px;
   background-color: white;
-  top: 80px;
+  top: 40px;
   cursor: pointer;
   padding-left: 5px;
 }
@@ -929,10 +929,10 @@ html {
   z-index: 10;
   background: black;
   opacity: 0.4;
-  right: 0;
-  top: 50%;
+  left: 0;
+  top: 5%;
   cursor: pointer;
-  width: 105px;
+  width: 150px;
   text-align: center;
 }
 .view-video .skip-btn p {
@@ -959,6 +959,11 @@ html {
   margin-top: 8px;
   margin-left: 8px;
   pointer-events: none;
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
 }
 
 .view-video {

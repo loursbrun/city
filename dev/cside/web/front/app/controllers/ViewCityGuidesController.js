@@ -17,6 +17,18 @@ app.controller("ViewCityguidesController", ['$scope', '$log', 'DeviceDetector', 
 
 
 
+    // Show BackBttn
+    $scope.backBtn =  angular.element(document.querySelector("#back-btn"));
+    TweenMax.to($scope.backBtn,0,{opacity:1,scaleX:1, force3D:true});
+
+
+    // Anim cityguides view
+    $scope.viewCityguides =  angular.element(document.querySelector(".view-cityguides"));
+    TweenMax.to($scope.viewCityguides,0,{opacity:0, force3D:true});
+    TweenMax.to($scope.viewCityguides,0.5,{delay:0.2,  opacity:1, force3D:true});
+
+
+
 
 
 
