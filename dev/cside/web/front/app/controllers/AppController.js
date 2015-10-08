@@ -5,7 +5,7 @@
 // @author Didier Brun
 //
 
-app.controller ("AppController", ['$log', '$scope', '$state', 'AnimationModel', 'DeviceDetector', 'WrapperUtils', function AppController($log, $scope, $state, model, device, wrapper)
+app.controller ("AppController", ['$log', '$scope', '$state', 'AnimationModel', 'DeviceDetector', 'WrapperUtils', '$vuittonServices', function AppController($log, $scope, $state, model, device, wrapper, $vuitton)
 {
 
     $scope.texts = model.localized.texts;
@@ -27,6 +27,10 @@ app.controller ("AppController", ['$log', '$scope', '$state', 'AnimationModel', 
 
     $scope.pathTo = function(path,attrs){
         $state.go(path,attrs);
+    }
+
+    $scope.moreDetails = function (sku){
+        $vuitton.openProductPage(sku);
     }
 
 
