@@ -8,13 +8,10 @@
 // @author Fabien Brun
 //
 
-app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','AnimationModel', '$state', function ViewBookController($scope ,$log, device, model ,$state)
+app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','AnimationModel', '$state',function ViewBookController($scope ,$log, device, model ,$state)
 {
 
     $log.log("View Book Controller");
-
-
-
 
 
 
@@ -26,6 +23,8 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
+
+
 
 
 
@@ -167,6 +166,8 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
     }, $scope.timer_slideshow_speed * 1000);
+
+
 
 
 

@@ -20,7 +20,9 @@
 
 
 
-        <p class="description">{{book_description}}</p>
+       <!--  <p class="description" >{{book_description}}</p> -->
+        <div class="description" html="book_description"></div>
+
 
 
 
@@ -29,7 +31,7 @@
         <li class="li-book" >
 
 
-            <a class="link-book" ng-click="pathTo('boxset')">
+            <a class="link-book" ng-click="moreDetails('{{book_sku}}')">
             <img src="../deploy/deploy/assets/images/cities/{{book_name}}/cta.jpg">
             </a>
 
