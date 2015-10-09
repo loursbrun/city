@@ -23,11 +23,6 @@
 
 
 
-
-
-
-
-
   .content-book {
     position: relative;
     width: 80%;
@@ -150,11 +145,12 @@
   }
 
   .arrow-brown-fourth {
-    position: relative;
-    margin-top: 103px;
-    //float: left;
+    margin-left: 0px;
     cursor: pointer;
   }
+
+
+
 
   .arrow-brown-fifth {
     margin-left: 15px;
@@ -246,33 +242,6 @@
   }
 
 
-  .btnHeaderFourth {
-    position: relative;
-    left: 10px;
-    width: 150px;
-    cursor: pointer;
-
-    p {
-      position: relative;
-      margin: 0;
-      padding: 0;
-      width: 150px;
-      font-weight: normal;
-      font-size: 13px;
-
-    }
-  }
-
-
-  .btnHeaderFifth {
-
-    cursor: pointer;
-
-    p {
-
-
-    }
-  }
 
 
 

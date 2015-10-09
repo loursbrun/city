@@ -438,8 +438,7 @@ html {
   pointer-events: none;
 }
 .view-book .arrow-brown-fourth {
-  position: relative;
-  margin-top: 103px;
+  margin-left: 0px;
   cursor: pointer;
 }
 .view-book .arrow-brown-fifth {
@@ -507,23 +506,6 @@ html {
   width: 150px;
   font-weight: normal;
   font-size: 13px;
-}
-.view-book .btnHeaderFourth {
-  position: relative;
-  left: 10px;
-  width: 150px;
-  cursor: pointer;
-}
-.view-book .btnHeaderFourth p {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 150px;
-  font-weight: normal;
-  font-size: 13px;
-}
-.view-book .btnHeaderFifth {
-  cursor: pointer;
 }
 .view-book .btnHeaderFirst:hover, .view-book .btnHeaderSecond:hover, .view-book .btnHeaderThird:hover {
   opacity: 1;

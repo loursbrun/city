@@ -31,29 +31,33 @@
 
 
 <div class="li-container">
-        <li class="li-book" >
+        <li class="li-book" ng-mouseenter="arrowMouseOver('arrow-brown-fourth')" ng-mouseleave="arrowMouseOut('arrow-brown-fourth')">
 
 
             <a class="link-book" ng-click="moreDetails('{{book_sku}}')">
             <img src="../deploy/deploy/assets/images/cities/{{book_name}}/cta.jpg">
             </a>
-
-               <a class="btnHeaderFourth"  ng-click="moreDetails('{{book_sku}}')" ng-mouseenter="arrowMouseOver('arrow-brown-fourth')" ng-mouseleave="arrowMouseOut('arrow-brown-fourth')"><div class="arrow-brown-fourth"></div>
-
+            <br/>
+               <a class="btnHeaderFourth"  ng-click="moreDetails('{{book_sku}}')" >
+                   <div class="arrow-brown-fourth"></div>
                    <p>MORE DETAILS</p>
                </a>
         </li>
 
 
 
-    <li class="li-video" ng-show="book_video_link == true">
+
+
+    <li class="li-video" ng-show="book_video_link == true" ng-mouseenter="arrowMouseOver('arrow-brown-fifth')" ng-mouseleave="arrowMouseOut('arrow-brown-fifth')">
             <a class="link-video" ng-click="pathTo('video',{city:book_name})">
             <img src="../deploy/deploy/assets/images/cities/{{book_name}}/video.jpg">
             </a>
 
         <br/>
-        <a class="btnHeaderFifth" ng-click="pathTo('boxset')" ng-mouseenter="arrowMouseOver('arrow-brown-fifth')" ng-mouseleave="arrowMouseOut('arrow-brown-fifth')"><div class="arrow-brown-fifth"></div>
 
+
+        <a class="btnHeaderFifth" ng-click="pathTo('boxset')" >
+            <div class="arrow-brown-fifth"></div>
             <p>MORE DETAILS</p>
 
         </a>
