@@ -756,7 +756,7 @@ html {
   font-weight: normal;
   font-size: 13px;
 }
-.phone .view-exceptionalcase .book-container {
+.phone .view-exceptionalcase .book-container, .tablet.portrait .view-exceptionalcase .book-container {
   position: absolute;
   width: 100%;
   height: 60%;
@@ -766,7 +766,7 @@ html {
   margin-top: 0px;
   margin-bottom: 50px;
 }
-.phone .view-exceptionalcase .slideshow {
+.phone .view-exceptionalcase .slideshow, .tablet.portrait .view-exceptionalcase .slideshow {
   position: absolute;
   width: 100%;
   height: 40%;
@@ -774,18 +774,18 @@ html {
   background-size: contain;
   cursor: none;
 }
-.phone .view-exceptionalcase .content-book {
+.phone .view-exceptionalcase .content-book, .tablet.portrait .view-exceptionalcase .content-book {
   top: 2%;
   width: 90%;
   margin-left: 5%;
 }
-.phone .view-exceptionalcase .content-book h1 {
+.phone .view-exceptionalcase .content-book h1, .tablet.portrait .view-exceptionalcase .content-book h1 {
   font-size: 25px;
 }
-.phone .view-exceptionalcase .title-book {
+.phone .view-exceptionalcase .title-book, .tablet.portrait .view-exceptionalcase .title-book {
   margin-top: 0px;
 }
-.phone .view-exceptionalcase .btnHeaderSecond, .phone .view-exceptionalcase .btnHeaderThird {
+.phone .view-exceptionalcase .btnHeaderSecond, .phone .view-exceptionalcase .btnHeaderThird, .tablet.portrait .view-exceptionalcase .btnHeaderSecond, .tablet.portrait .view-exceptionalcase .btnHeaderThird {
   opacity: 0;
 }
 
@@ -973,7 +973,7 @@ html {
   opacity: 1;
   transition: all 0.5s ease 0s;
 }
-.phone .view-boxset .book-container {
+.phone .view-boxset .book-container, .tablet.portrait .view-boxset .book-container {
   position: absolute;
   width: 100%;
   height: 60%;
@@ -983,7 +983,7 @@ html {
   margin-top: 0px;
   margin-bottom: 50px;
 }
-.phone .view-boxset .slideshow {
+.phone .view-boxset .slideshow, .tablet.portrait .view-boxset .slideshow {
   position: absolute;
   width: 100%;
   height: 40%;
@@ -991,18 +991,18 @@ html {
   background-size: contain;
   cursor: none;
 }
-.phone .view-boxset .content-book {
+.phone .view-boxset .content-book, .tablet.portrait .view-boxset .content-book {
   top: 2%;
   width: 90%;
   margin-left: 5%;
 }
-.phone .view-boxset .content-book h1 {
+.phone .view-boxset .content-book h1, .tablet.portrait .view-boxset .content-book h1 {
   font-size: 25px;
 }
-.phone .view-boxset .title-book {
+.phone .view-boxset .title-book, .tablet.portrait .view-boxset .title-book {
   margin-top: 50px;
 }
-.phone .view-boxset .btnHeaderSecond, .phone .view-boxset .btnHeaderThird {
+.phone .view-boxset .btnHeaderSecond, .phone .view-boxset .btnHeaderThird, .tablet.portrait .view-boxset .btnHeaderSecond, .tablet.portrait .view-boxset .btnHeaderThird {
   opacity: 0;
 }
 

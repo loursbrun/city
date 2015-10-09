@@ -249,7 +249,7 @@
 
 
   ///////  Mobile CSS  &.phone
-  .phone & {
+  .phone & , .tablet.portrait & {
 
     .book-container {
       position: absolute;
