@@ -59,18 +59,51 @@
 
 
 
-}
 
+
+
+  ///////  Mobile CSS  &.phone
+  .phone & {
+
+    .skip-btn {
+
+      width: 170px;
+      text-align: left;
+
+
+    }
+
+
+
+
+
+
+  }   // end .phone &
+  /// End Mobile CSS
+
+
+
+
+}
 
 .view-video
 {
-  position: static;
-  top: initial;
-  left: initial;
-  width: 100%;
-  //height: auto;
+  position: relative;
+
+
+  height: 100%;
   color: black;
   background-color: black;
 
 
 }
+
+
+#fcplayer_wrapper {
+
+  position: absolute;
+  display: block;
+
+
+}
+

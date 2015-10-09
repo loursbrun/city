@@ -5,11 +5,7 @@
 // @author Didier Brun
 //
 
-app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetector', function ViewHomeController($scope, $window, $log, device)
-{
-
-
-
+app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetector', function ViewHomeController($scope, $window, $log, device) {
 
 
     $scope.currentCity = "default";
@@ -19,8 +15,33 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
     device.setLayout(DeviceDetector.LAYOUT_FILL);
 
     // Show BackBttn
-    $scope.backBtn =  angular.element(document.querySelector("#back-btn"));
-    TweenMax.to($scope.backBtn,0,{opacity:1,scaleX:1, force3D:true});
+    $scope.backBtn = angular.element(document.querySelector("#back-btn"));
+    TweenMax.to($scope.backBtn, 0, {opacity: 1, scaleX: 1, force3D: true});
+
+
+    // Show BackBttn
+    $scope.videoView = angular.element(document.querySelector(".view-video"));
+    //  $scope.cfPlayerContainer =  angular.element(document.querySelector("#fcplayer_container"));
+    //  $scope.videoHeight =  $scope.cfPlayerContainer.innerHeight();
+    $scope.windowHeight = $("body").innerHeight();
+    $scope.windowWidth = $("body").innerWidth();
+
+
+
+
+
+
+    // Center the video
+    $log.log("Hauteur Body :", $scope.windowHeight);
+    $log.log("Largeur Body :", $scope.windowWidth);
+    var videoHeight = $scope.windowWidth / 2.5;
+    $log.log("hauteur Video :", videoHeight);
+
+
+    var margintopVideo = $scope.windowHeight / 2 - videoHeight / 2 - 100;
+    TweenMax.to($scope.videoView, 0, {delay: 0, y: margintopVideo, force3D: true});
+
+
 
 
 

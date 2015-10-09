@@ -55,18 +55,49 @@
 
   }
 
+
+  ///////  Mobile CSS  &.phone
+  .phone & {
+
+    .skip-btn {
+
+      top: 5%;
+      width: 120px;
+      text-align: left;
+
+
+    }
+
+
+
+
+
+
+  }   // end .phone &
+  /// End Mobile CSS
+
+
 }
 
 
 .view-video
 {
-  position: static;
-  top: initial;
-  left: initial;
-  width: 100%;
-  //height: auto;
+  position: relative;
+
+  //width: 100%;
+  height: auto;
   color: black;
   background-color: black;
 
+
+}
+
+
+#fcplayer_wrapper {
+
+  position: absolute;
+  display: block;
+  height: 100%;
+  top: 50%;
 
 }

@@ -17,6 +17,9 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
+    // Change BG color to Black from CSS app
+    var app =  angular.element(document.querySelector("#app"));
+    TweenMax.to(app,0,{backgroundColor:"#FFFFFF", force3D:true});
 
 
 

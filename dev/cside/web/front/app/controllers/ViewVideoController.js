@@ -29,6 +29,12 @@ app.controller("ViewVideoController", ['$scope', '$window', '$log', 'DeviceDetec
     TweenMax.to($scope.backBtn,0,{opacity:0,scaleX:0,  force3D:true});
 
 
+    // Change BG color to Black from CSS app
+    var app =  angular.element(document.querySelector("#app"));
+    TweenMax.to(app,0,{backgroundColor:"#000000", force3D:true});
+
+
+
 
 
 
