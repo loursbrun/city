@@ -11,6 +11,7 @@
   background-color: #f7f7f7;
 
 
+
   .book-container {
     position: absolute;
     width: 50%;
@@ -29,6 +30,7 @@
     margin-left: 10%;
     top: 20%;
     text-align: left;
+    background-color: #f7f7f7;
 
 
 
@@ -89,7 +91,7 @@
 
     p {
       position: relative;
-      margin-bottom: 20px;
+      //margin-bottom: 20px;
       font-family: "LouisVuitton-N", sans-serif;
       font-size: 14px;
       line-height: 18px;
@@ -294,6 +296,7 @@
   .li-container {
     position: absolute;
     width: 100%;
+    margin-top: 20px;
   }
 
   .li-book {
@@ -309,6 +312,68 @@
     }
 
   }
+
+
+
+
+
+  ///////  Mobile CSS  &.phone
+  .phone & {
+
+    .book-container {
+      position: absolute;
+      width: 100%;
+      height: 60%;
+      top: 40%;
+      left:0%;
+      background-color: #f7f7f7;
+      margin-top: 0px;
+      margin-bottom: 50px;
+    }
+
+    .slideshow {
+      position: absolute;
+      width: 100%;
+      height: 40%;
+      left: 0%;
+      background-size:contain;
+      cursor: none;
+    }
+
+    .content-book {
+      top: 2%;
+      width: 90%;
+      margin-left: 5%;
+    }
+
+    .title-book {
+      margin-top: 50px;
+    }
+
+    h1 {
+    margin-top: 50px;
+    }
+
+    .btnHeaderSecond , .btnHeaderThird {
+      opacity: 0;
+    }
+
+
+
+
+
+
+    }   // end .phone &
+  /// End Mobile CSS
+
+
+
+
+
+
+
+
+
 
 
 
