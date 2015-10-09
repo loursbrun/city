@@ -352,7 +352,7 @@ html {
   position: relative;
   width: 80%;
   margin-left: 10%;
-  top: 20%;
+  top: 5%;
   text-align: left;
   background-color: #f7f7f7;
 }
@@ -701,6 +701,10 @@ html {
   /* Chrome, Safari, Opera */
   transform: rotate(180deg);
 }
+.view-exceptionalcase .btnHeaderFirst:hover, .view-exceptionalcase .btnHeaderSecond:hover, .view-exceptionalcase .btnHeaderThird:hover {
+  opacity: 1;
+  transition: all 0.5s ease 0s;
+}
 .view-exceptionalcase .btnHeaderFirst {
   position: absolute;
   left: 10px;
@@ -709,6 +713,7 @@ html {
   top: 15px;
   cursor: pointer;
   padding-left: 5px;
+  opacity: 0.7;
 }
 .view-exceptionalcase .btnHeaderFirst p {
   position: relative;
@@ -727,6 +732,7 @@ html {
   top: 40px;
   cursor: pointer;
   padding-left: 5px;
+  opacity: 0.7;
 }
 .view-exceptionalcase .btnHeaderSecond p {
   position: relative;
@@ -741,9 +747,10 @@ html {
   left: 10px;
   width: 150px;
   background-color: white;
-  top: 150px;
+  top: 40px;
   cursor: pointer;
   padding-left: 5px;
+  opacity: 0.7;
 }
 .view-exceptionalcase .btnHeaderThird p {
   position: relative;
@@ -767,12 +774,37 @@ html {
   font-weight: normal;
   font-size: 13px;
 }
-
-@media screen and (max-width: 768px) {
-  .page #animationContent {
-    padding-top: 0px;
-    padding-bottom: 0;
-  }
+.phone .view-exceptionalcase .book-container {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 40%;
+  left: 0%;
+  background-color: #f7f7f7;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.phone .view-exceptionalcase .slideshow {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0%;
+  background-size: contain;
+  cursor: none;
+}
+.phone .view-exceptionalcase .content-book {
+  top: 2%;
+  width: 90%;
+  margin-left: 5%;
+}
+.phone .view-exceptionalcase .content-book h1 {
+  font-size: 25px;
+}
+.phone .view-exceptionalcase .title-book {
+  margin-top: 0px;
+}
+.phone .view-exceptionalcase .btnHeaderSecond, .phone .view-exceptionalcase .btnHeaderThird {
+  opacity: 0;
 }
 
 .slide {
@@ -894,6 +926,7 @@ html {
   top: 15px;
   cursor: pointer;
   padding-left: 5px;
+  opacity: 0.7;
 }
 .view-boxset .btnHeaderFirst p {
   position: relative;
@@ -912,6 +945,7 @@ html {
   top: 40px;
   cursor: pointer;
   padding-left: 5px;
+  opacity: 0.7;
 }
 .view-boxset .btnHeaderSecond p {
   position: relative;
@@ -929,6 +963,7 @@ html {
   top: 150px;
   cursor: pointer;
   padding-left: 5px;
+  opacity: 0.7;
 }
 .view-boxset .btnHeaderThird p {
   position: relative;
@@ -951,6 +986,42 @@ html {
   width: 150px;
   font-weight: normal;
   font-size: 13px;
+}
+.view-boxset .btnHeaderFirst:hover, .view-boxset .btnHeaderSecond:hover, .view-boxset .btnHeaderThird:hover {
+  opacity: 1;
+  transition: all 0.5s ease 0s;
+}
+.phone .view-boxset .book-container {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 40%;
+  left: 0%;
+  background-color: #f7f7f7;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.phone .view-boxset .slideshow {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0%;
+  background-size: contain;
+  cursor: none;
+}
+.phone .view-boxset .content-book {
+  top: 2%;
+  width: 90%;
+  margin-left: 5%;
+}
+.phone .view-boxset .content-book h1 {
+  font-size: 25px;
+}
+.phone .view-boxset .title-book {
+  margin-top: 50px;
+}
+.phone .view-boxset .btnHeaderSecond, .phone .view-boxset .btnHeaderThird {
+  opacity: 0;
 }
 
 @media screen and (max-width: 768px) {

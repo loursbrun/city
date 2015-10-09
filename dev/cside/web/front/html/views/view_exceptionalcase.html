@@ -9,11 +9,7 @@
 
     <div class="book-container" anim-arrow>
 
-        <div class="menu-container">
-            <a class="btnHeaderFirst" ng-click="pathTo('cityguides')"  ng-mouseenter="arrowMouseOver('arrow-brown-first')" ng-mouseleave="arrowMouseOut('arrow-brown-first')"><div class="arrow-brown-first"></div><p>RETURN TO THE COLLECTION</p></a>
-            <a class="btnHeaderSecond" ng-click="pathTo('boxset')" ng-mouseenter="arrowMouseOver('arrow-brown-second')" ng-mouseleave="arrowMouseOut('arrow-brown-second')"><div class="arrow-brown-second"></div><p>BOX SET WITH A CHOISE <br/> OF 5 CITIES</p></a>
 
-        </div>
 
 
 
@@ -34,7 +30,7 @@
             <li>
 
                 <a ng-click="moreDetails('{{book_sku}}')">
-                      <img src="http://localhost/Fabien/city/deploy/deploy/assets/images/cities/exceptional-case/cta.jpg">
+                      <img src="../deploy/deploy/assets/images/cities/exceptional-case/cta.jpg">
                 </a>
                 <br/>
                 <a class="btnHeaderFourth" ng-click="moreDetails('{{book_sku}}')" ng-mouseenter="arrowMouseOver('arrow-brown-fourth')" ng-mouseleave="arrowMouseOut('arrow-brown-fourth')"><div class="arrow-brown-fourth"></div>
@@ -61,6 +57,13 @@
         <div id="slideCase" ></div>
 
 
+    </div>
+
+
+
+    <div class="menu-container">
+        <a class="btnHeaderFirst" ng-click="pathTo('cityguides')"  ng-mouseenter="arrowMouseOver('arrow-brown-first')" ng-mouseleave="arrowMouseOut('arrow-brown-first')"><div class="arrow-brown-first"></div><p>RETURN TO THE COLLECTION</p></a>
+        <a class="btnHeaderThird" ng-click="pathTo('boxset')" ng-mouseenter="arrowMouseOver('arrow-brown-third')" ng-mouseleave="arrowMouseOut('arrow-brown-third')"><div class="arrow-brown-third"></div><p>BOX SET WITH A CHOISE <br/> OF 5 CITIES</p></a>
     </div>
 
 

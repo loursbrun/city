@@ -16,8 +16,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
-    // Scroll auto to top
-     $scope.scrollTop();
+
 
 
 
@@ -201,7 +200,8 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
-
+// Scroll auto to top
+    $scope.scrollTop();
 
 
 
