@@ -198,6 +198,28 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     }, $scope.timer_slideshow_speed * 1000);
 
 
+// Book inversed layout
+
+
+        $log.log("Inversed:" + $scope.book_inversed_layout );
+
+
+
+    $scope.bookContainer = angular.element(document.querySelector(".book-container"));
+    $scope.slideshow = angular.element(document.querySelector(".slideshow"));
+
+    if ($scope.book_inversed_layout == true & device.phone() == null ) {
+            //inversed true
+        TweenMax.to($scope.bookContainer, 0, {css: {left:"50%"}});
+        TweenMax.to($scope.slideshow, 0, {css: {left:"0%"}});
+        } else {
+        //inversed False
+
+
+        }
+
+
+
 
 
 // Scroll auto to top
