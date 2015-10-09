@@ -34,4 +34,9 @@ app.controller ("AppController", ['$log', '$scope', '$state', 'AnimationModel', 
     }
 
 
+    $scope.scrollTop = function () {
+        TweenLite.to(window, 1, {scrollTo:{ y: 0, x:0}, ease:Power4.easeInOut});
+    }
+
+
 }]);

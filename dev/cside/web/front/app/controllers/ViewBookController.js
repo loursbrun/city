@@ -15,6 +15,15 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
+
+    // Scroll auto to top
+     $scope.scrollTop();
+
+
+
+
+
+
     // Anim book view
     $scope.viewBook =  angular.element(document.querySelector(".view-book"));
     TweenMax.to($scope.viewBook,0,{opacity:0, force3D:true});
@@ -23,6 +32,12 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
     $log.log($state.params.city) ;
     $scope.book_page = $state.params.city;
+
+
+
+
+
+
 
 
 
@@ -41,6 +56,12 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     // Size of screen
     $scope.windowWidth = $("body").innerWidth();
     $scope.windowHeight = $("body").innerHeight();
+
+
+
+
+
+
 
 
 
@@ -176,8 +197,6 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
     }, $scope.timer_slideshow_speed * 1000);
-
-
 
 
 
