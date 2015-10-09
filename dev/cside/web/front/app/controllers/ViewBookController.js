@@ -208,7 +208,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     $scope.bookContainer = angular.element(document.querySelector(".book-container"));
     $scope.slideshow = angular.element(document.querySelector(".slideshow"));
 
-    if ($scope.book_inversed_layout == true & device.phone() == null ) {
+    if ($scope.book_inversed_layout == true & device.mobile() == null  ) {
             //inversed true
         TweenMax.to($scope.bookContainer, 0, {css: {left:"50%"}});
         TweenMax.to($scope.slideshow, 0, {css: {left:"0%"}});
