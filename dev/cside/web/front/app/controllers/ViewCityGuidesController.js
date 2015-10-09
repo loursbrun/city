@@ -29,6 +29,11 @@ app.controller("ViewCityguidesController", ['$scope', '$log', 'DeviceDetector', 
 
 
 
+    // Change BG color to Black from CSS app
+
+    var app =  angular.element(document.querySelector("#app"));
+    TweenMax.to(app,0,{backgroundColor:"#ffffff", force3D:true});
+
 
 
 

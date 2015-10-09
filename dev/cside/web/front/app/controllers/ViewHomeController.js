@@ -26,6 +26,8 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
 
 
 
+
+
 }]);
 
 
