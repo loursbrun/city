@@ -1,54 +1,30 @@
 <div view-boxset id="view_boxset" class="view-boxset">
 
 
-
-
     <div class="book-container" anim-arrow>
-
-
-
         <div class="content-book">
-
-
-
-
             <div class="title-book">
-                <h1 ><span>BOX SET WITH A CHOISCE OF 5 CITIES</span></h1>
+                <h1><span html="box_set_title"></span></h1>
             </div>
-
-
-            <p class="description">The Louis Vuitton City Guides may be purchased in a box set including any 5 destinations among the 21 in the entire collection.<br><br>Available exclusively in Louis Vuitton stores, this box set also makes an ideal gift for all urban explorers, who may thus be treated to guides for a group of cities reflecting their personalities and interests. Below we suggest just a few examples.<br><br>Fashion capitals: London, Milan, New York, Paris, Tokyo<br>Important centers for contemporary art: London, Miami, New York, São Paulo, Venice<br>Beach cities: Cape Town, Los Angeles, Rio de Janeiro, Singapore, Sydney<br>Business cities: London, Hong Kong, New York, Singapore, Tokyo</p>
-
-
-
-
-
+            <p class="description" html="box_set_description"></p>
         </div>
-
-
-
-
     </div>
-
-
-
-
 
     <div class="slideshow">
-
-
-        <div id="slideCase" ></div>
-
-
+        <div id="slideCase"></div>
     </div>
-
 
     <div class="menu-container">
-        <a class="btnHeaderFirst" ng-click="pathTo('cityguides')"  ng-mouseenter="arrowMouseOver('arrow-brown-first')" ng-mouseleave="arrowMouseOut('arrow-brown-first')"><div class="arrow-brown-first"></div><p>RETURN TO THE COLLECTION</p></a>
-        <a class="btnHeaderSecond" ng-click="pathTo('exceptionalcase')" ng-mouseenter="arrowMouseOver('arrow-brown-second')" ng-mouseleave="arrowMouseOut('arrow-brown-second')"><div class="arrow-brown-second"></div><p>EXCEPTIONAL CASE <br/> OF ALL CITIES</p></a>
+        <a class="btnHeaderFirst" ng-click="pathTo('cityguides')" ng-mouseenter="arrowMouseOver('arrow-brown-first')"
+           ng-mouseleave="arrowMouseOut('arrow-brown-first')">
+            <div class="arrow-brown-first"></div>
+            <p html="back_wording"></p></a>
+        <a class="btnHeaderSecond" ng-click="pathTo('exceptionalcase')"
+           ng-mouseenter="arrowMouseOver('arrow-brown-second')" ng-mouseleave="arrowMouseOut('arrow-brown-second')">
+            <div class="arrow-brown-second"></div>
+            <p html="exceptional_case_wording"></p></a>
 
     </div>
-
 
 
 </div>

@@ -427,6 +427,7 @@ html {
 }
 .view-book .content-book .description {
   position: relative;
+  color: #4f332e;
 }
 .view-book .slideshow {
   position: absolute;

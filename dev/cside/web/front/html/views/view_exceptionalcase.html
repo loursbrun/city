@@ -1,73 +1,49 @@
 <div view-exceptionalcase id="view_exceptionalcase" class="view-exceptionalcase">
 
 
-
-
-
-
-
-
     <div class="book-container" anim-arrow>
 
-
-
-
-
         <div class="content-book">
-
-
-
-
             <div class="title-book">
-                <h1 ><span>EXCEPTIONAL CASE OF ALL 15 CITIES</span></h1>
+                <h1><span html="exceptional_case_title"></span></h1>
             </div>
 
-
-
-            <p class="description">Designed with discerning travelers in mind, whether they are jet-setting from city to city or curling up in their favorite armchair, an exceptional case has been created specifically for this year’s Louis Vuitton City Guides, issued in a limited edition of 3,000 numbered copies.<br><br>All 15 cities may thus be stored in this indispensable box in lacquered wood, available in five eye-popping colors. Its clean lines and graceful proportions join in celebrating 15 years of Louis Vuitton City Guides.</p>
-
+            <p class="description" html="exceptional_case_description"></p>
 
             <li>
 
                 <a ng-click="moreDetails('{{book_sku}}')">
-                      <img src="../deploy/deploy/assets/images/cities/exceptional-case/cta.jpg">
+                    <img src="../deploy/deploy/assets/images/cities/exceptional-case/cta.jpg">
                 </a>
                 <br/>
-                <a class="btnHeaderFourth" ng-click="moreDetails('{{book_sku}}')" ng-mouseenter="arrowMouseOver('arrow-brown-fourth')" ng-mouseleave="arrowMouseOut('arrow-brown-fourth')"><div class="arrow-brown-fourth"></div>
+                <a class="btnHeaderFourth" ng-click="moreDetails('{{book_sku}}')"
+                   ng-mouseenter="arrowMouseOver('arrow-brown-fourth')"
+                   ng-mouseleave="arrowMouseOut('arrow-brown-fourth')">
+                    <div class="arrow-brown-fourth"></div>
 
-                    <p>MORE DETAILS</p>
+                    <p html="more_wording"></p>
                 </a>
-
-
             </li>
         </div>
 
 
-
-
     </div>
-
-
-
 
 
     <div class="slideshow">
-
-
-        <div id="slideCase" ></div>
-
-
+        <div id="slideCase"></div>
     </div>
-
-
 
     <div class="menu-container">
-        <a class="btnHeaderFirst" ng-click="pathTo('cityguides')"  ng-mouseenter="arrowMouseOver('arrow-brown-first')" ng-mouseleave="arrowMouseOut('arrow-brown-first')"><div class="arrow-brown-first"></div><p>RETURN TO THE COLLECTION</p></a>
-        <a class="btnHeaderThird" ng-click="pathTo('boxset')" ng-mouseenter="arrowMouseOver('arrow-brown-third')" ng-mouseleave="arrowMouseOut('arrow-brown-third')"><div class="arrow-brown-third"></div><p>BOX SET WITH A CHOISE <br/> OF 5 CITIES</p></a>
+        <a class="btnHeaderFirst" ng-click="pathTo('cityguides')" ng-mouseenter="arrowMouseOver('arrow-brown-first')"
+           ng-mouseleave="arrowMouseOut('arrow-brown-first')">
+            <div class="arrow-brown-first"></div>
+            <p html="back_wording"></p></a>
+        <a class="btnHeaderThird" ng-click="pathTo('boxset')" ng-mouseenter="arrowMouseOver('arrow-brown-third')"
+           ng-mouseleave="arrowMouseOut('arrow-brown-third')">
+            <div class="arrow-brown-third"></div>
+            <p html="box_set_wording"></p></a>
     </div>
-
-
-
 
 </div>
 
