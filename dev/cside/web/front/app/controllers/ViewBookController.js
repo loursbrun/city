@@ -14,16 +14,9 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     $log.log("View Book Controller");
 
 
-
-
-
     // Change BG color to Black from CSS app
     var app =  angular.element(document.querySelector("#app"));
     TweenMax.to(app,0,{backgroundColor:"#FFFFFF", force3D:true});
-
-
-
-
 
 
     // Anim book view
@@ -31,28 +24,21 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     TweenMax.to($scope.viewBook,0,{opacity:0, force3D:true});
     TweenMax.to($scope.viewBook,0.5,{delay:0.2, opacity:1, force3D:true});
 
-
-    $log.log($state.params.city) ;
+    //$log.log($state.params.city) ;
     $scope.book_page = $state.params.city;
 
 
-
-
-
-
-
+    // Wordings Localised
+    $scope.more_wording = model.localized.labels_dictionaries.common.more ;
+    $scope.back_wording = model.localized.labels_dictionaries.common.back ;
+    $scope.exceptional_case_wording = model.localized.labels_dictionaries.common.exceptional_case ;
+    $scope.box_set_wording = model.localized.labels_dictionaries.common.box_set ;
 
 
     // Hide BackBttn
     $scope.backBtn =  angular.element(document.querySelector("#back-btn"));
     TweenMax.to($scope.backBtn,0,{opacity:0.5,scaleX:0,  force3D:true});
-
-
-
     device.setLayout(DeviceDetector.LAYOUT_FILL);
-
-
-
 
 
     // Size of screen
@@ -61,25 +47,14 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
-
-
-
-
-
-
     // Number of books
     $scope.books_object = model.global.books;
     $scope.books_number = model.global.books.length;
-
-
-
-    $log.log("Number of books :" +  $scope.books_number) ;
+    //$log.log("Number of books :" +  $scope.books_number) ;
 
 
     for(var i = 0 ; i < $scope.books_number; i ++ ) {
-
        // $log.log("Books Names :" +  $scope.books_object[i].id) ;
-
         if( $scope.books_object[i].id == $state.params.city) {
 
             $scope.book_name = $scope.books_object[i].id ;
@@ -100,10 +75,6 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
             $scope.book_sku = model.localized.labels_dictionaries[$scope.book_page].sku ;
             $log.log("Localised:" +  $scope.book_description) ;
 
-
-
-
-
         }
 
     }
@@ -122,7 +93,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     }
     convertHex($scope.book_color,30);
 
-
+/*
     $log.log("Windows Width :" + $scope.windowWidth);
     $log.log("book_name :" +  $scope.book_name) ;
     $log.log("book_color :" +  $scope.book_color) ;
@@ -140,7 +111,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     $log.log("book_imgs_7 :" +  $scope.book_imgs_7) ;
     $log.log("book_description :" +  $scope.book_description) ;
     $log.log("book_sku :" +  $scope.book_sku) ;
-
+*/
 
 
 // Split Slider up & Content bootom if screen width < 768
@@ -152,13 +123,10 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
   // Slider animation
-
-
     $scope.timer_slideshow_speed = 6;
     $scope.timer_slideshow_animation = 2;
 
     $scope.tint =  angular.element(document.querySelector(".tint"));
-
     $scope.slide1 =  angular.element(document.querySelector("#slide1"));
     $scope.slide2 =  angular.element(document.querySelector("#slide2"));
     $scope.slide3 =  angular.element(document.querySelector("#slide3"));
@@ -168,16 +136,11 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     $scope.slide7 =  angular.element(document.querySelector("#slide7"));
     $scope.slide8 =  angular.element(document.querySelector("#slide8"));
 
-
     var i = 1;
-
-
     setInterval(function() {
-
         i = i + 1;
         if (i > ($scope.book_img_number )) {i = 1}
        // $log.log("#slide"+ [i]) ;
-
 
         TweenMax.to($scope.slide1,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
         TweenMax.to($scope.slide2,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
@@ -187,15 +150,12 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
         TweenMax.to($scope.slide6,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
         TweenMax.to($scope.slide7,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
         TweenMax.to($scope.slide8,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
-
         TweenMax.to($scope.tint,$scope.timer_slideshow_animation/2,{opacity:0.5, force3D:true});
         TweenMax.to($scope.tint,$scope.timer_slideshow_animation/2,{delay:$scope.timer_slideshow_animation/2, opacity:0, force3D:true});
 
 
-
         slideNext =  angular.element(document.querySelector("#slide"+ [i]));
         TweenMax.to(slideNext,$scope.timer_slideshow_animation,{opacity:1, force3D:true});
-
 
 
     }, $scope.timer_slideshow_speed * 1000);
@@ -218,17 +178,9 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
         } else {
         //inversed False
 
-
         }
-
-
-
-
-
 // Scroll auto to top
     $scope.scrollTop();
-
-
 
 }]);
 

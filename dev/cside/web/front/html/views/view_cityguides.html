@@ -16,19 +16,13 @@
     <div class="book-container">
 
         <ul class="coverflow">
-
-
-            <li ng-repeat="(key,value) in books_array" id='{{books_array[key].slug}}'>
+            <li ng-repeat="(key,value) in books_array " id='{{books_array[key].slug}}'>
                 <a ng-click="pathTo('book',{city:'{{books_array[key].slug}}'})">
                     <img src='{{link_img_array[key]}}'>
-
                     <p class="city" style='color:{{colors_array[key]}}' html="books_array[key].title"></p>
                 </a>
             </li>
-
-
         </ul>
-
 
     </div>
 
@@ -46,7 +40,6 @@
             <p html="box_set_btn_wording"></p>
         </a>
     </div>
-
 
 </div>
 
