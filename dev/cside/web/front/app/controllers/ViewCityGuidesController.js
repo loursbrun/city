@@ -74,17 +74,8 @@ app.controller("ViewCityguidesController", ['$scope', '$log', 'DeviceDetector','
         console.log( $scope.link_img_array[z]);
     }
 
-
-
-
-
-
-    var book = 0 ;
-
+// Cut the array because the list of book in original json is in the same nod
     $scope.books_array= $scope.books_array.slice(2,i - 2);
-    $log.log("Title:" , $scope.books_array);
-    $log.log("Slug:" , $scope.books_array[book].slug);
-    $log.log("Color:" , $scope.colors_array[book]);
 
 
 
