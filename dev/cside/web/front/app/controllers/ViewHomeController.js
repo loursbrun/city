@@ -5,7 +5,7 @@
 // @author Didier Brun
 //
 
-app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetector', function ViewHomeController($scope, $window, $log, device) {
+app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetector','AnimationModel', function ViewHomeController($scope, $window, $log, device, model) {
 
 
     $scope.currentCity = "default";
@@ -13,6 +13,12 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
     $log.log("View Home Controller");
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
+
+
+    // Wordings Localised
+    $scope.skip_wording = model.localized.labels_dictionaries.common.skip ;
+
+
 
     // Show BackBttn
     $scope.backBtn = angular.element(document.querySelector("#back-btn"));

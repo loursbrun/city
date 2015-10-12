@@ -8,13 +8,21 @@
 // @author Fabien Brun
 //
 
-app.controller("ViewCityguidesController", ['$scope', '$log', 'DeviceDetector', function ViewCityguidesController($scope, $log, device)
+app.controller("ViewCityguidesController", ['$scope', '$log', 'DeviceDetector','AnimationModel', function ViewCityguidesController($scope, $log, device, model)
 {
 
     $log.log("View Cityguides Controller");
 
     device.setLayout(DeviceDetector.LAYOUT_FILL);
 
+
+
+    // Wordings Localised
+    $scope.home_wording = model.localized.labels_dictionaries.home.title ;
+    $scope.home_description_wording = model.localized.labels_dictionaries.home.description ;
+    $scope.pdf_btn_wording = model.localized.labels_dictionaries.common.pdf ;
+    $scope.exceptional_case_btn_wording = model.localized.labels_dictionaries.common.exceptional_case ;
+    $scope.box_set_btn_wording = model.localized.labels_dictionaries.common.box_set ;
 
 
     // Show BackBttn
