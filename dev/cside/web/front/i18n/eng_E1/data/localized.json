@@ -26,7 +26,7 @@
         "mexico": {
             "title": "MEXICO<br/>CITY",
             "description": "This sprawling city, one of the world's most populous metropolitan areas, offers a passionate mosaic of colorful neighborhoods, known as colonias, where diversity rather than unity is the byword. From the bustling and energetic historic center to Tepito in the north, notoriously home to the country's largest informal market, contrasting with picturesque and artistic Coyoacán and the aristocratic tranquility of San Angel in the south. <br><br>Authors: Élisabeth Cautru, Natasha Edwards, Ana Elena Mallet, Maria Jose Musi, Guillermo Osorno Covarrubias, Una Pérez Ruiz, Yannina Thomassiny, Deborah Vértiz <br>Photographer: Flore-Aël Surun <br>Guest: Carlos Couturie",
-            "slug": "mexico-city",
+            "slug": "mexico",
             "sku": "R07877"
         },
 
@@ -155,7 +155,7 @@
         },
 
         "rio": {
-            "slug": "rio-de-janeio",
+            "slug": "rio",
             "title": "RIO DE<br/>JANEIRO",
             "description": "Both provincial and sophisticated, beautiful and wild, Rio is a modern, tropical and multicultural metropolis that revels in paradox. From lush forests to closely packed skyscrapers, modern architectural masterpieces to elegant colonial residences, glamour to religious fervor, beaches to ultra-contemporary museums, there really is no other city quite like it on the planet.<br><br>Authors: Ana Luiza Pessoa de Quieroz, Dominic Phillips, Douglas Gray, Kathleen Mary McCaul, Nathan Walters <br>Photographer: Denis Bourges <br>Guest: Joyce Moreno",
             "sku": "R08019"

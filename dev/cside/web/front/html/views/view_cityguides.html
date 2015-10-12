@@ -15,157 +15,16 @@
 
     <ul class="coverflow" >
 
-        <li id="beijing" >
-            <a ng-click="pathTo('book',{city:'beijing'})" >
-                <img src="../deploy/deploy/assets/images/cities/beijing/cover.png">
-                <p class="city" style="color:#ef3046">BEIJING</p>
-            </a>
-        </li>
 
-        <li id="berlin">
-            <a ng-click="pathTo('book',{city:'berlin'})" >
-                <img src="../deploy/deploy/assets/images/cities/berlin/cover.png">
-                <p class="city" style="color:#e98800">BERLIN</p>
-            </a>
-        </li>
-
-        <li id="cape-town">
-            <a ng-click="pathTo('book',{city:'cape-town'})" >
-                <img src="../deploy/deploy/assets/images/cities/cape-town/cover.png">
-                <p class="city" style="color:#92a23c">CAPE<br>TOWN</p>
-            </a>
-        </li>
-
-        <li id="hong-kong">
-             <a ng-click="pathTo('book',{city:'hong-kong'})" >
-                <img src="../deploy/deploy/assets/images/cities/hong-kong/cover.png">
-                <p class="city" style="color:#d4753c">HONG<br>KONG</p>
-            </a>
-        </li>
-
-        <li id="istanbul">
-             <a ng-click="pathTo('book',{city:'istanbul'})" >
-                <img src="../deploy/deploy/assets/images/cities/istanbul/cover.png">
-                <p class="city" style="color:#a26288">ISTANBUL</p>
-            </a>
-        </li>
-
-        <li id="london">
-             <a ng-click="pathTo('book',{city:'london'})" >
-                <img src="../deploy/deploy/assets/images/cities/london/cover.png">
-                <p class="city" style="color:#8a60a3">LONDON</p>
-            </a>
-        </li>
-
-        <li id="los-angeles">
-             <a ng-click="pathTo('book',{city:'los-angeles'})" >
-                <img src="../deploy/deploy/assets/images/cities/los-angeles/cover.png">
-                <p class="city" style="color:#c36970">LOS<br>ANGELES</p>
-            </a>
-        </li>
-
-        <li id="mexico">
-             <a ng-click="pathTo('book',{city:'mexico'})" >
-                <img src="../deploy/deploy/assets/images/cities/mexico/cover.png">
-                <p class="city" style="color:#f47236">MEXICO<br>CITY</p>
-            </a>
-        </li>
-
-        <li id="miami">
-             <a ng-click="pathTo('book',{city:'miami'})" >
-                <img src="../deploy/deploy/assets/images/cities/miami/cover.png">
-                <p class="city" style="color:#28b785">MIAMI</p>
-            </a>
-        </li>
-
-        <li id="milan">
-             <a ng-click="pathTo('book',{city:'milan'})" >
-                <img src="../deploy/deploy/assets/images/cities/milan/cover.png">
-                <p class="city" style="color:#d24747">MILAN</p>
-            </a>
-        </li>
-
-        <li id="moscow">
-             <a ng-click="pathTo('book',{city:'moscow'})" >
-                <img src="../deploy/deploy/assets/images/cities/moscow/cover.png">
-                <p class="city" style="color:#00aaa8">MOSCOW</p>
-            </a>
-        </li>
-
-        <li id="new-york">
-             <a ng-click="pathTo('book',{city:'new-york'})" >
-                <img src="../deploy/deploy/assets/images/cities/new-york/cover.png">
-                <p class="city" style="color:#c79439">NEW<br>YORK</p>
-            </a>
-        </li>
-
-        <li id="paris">
-             <a ng-click="pathTo('book',{city:'paris'})" >
-                <img src="../deploy/deploy/assets/images/cities/paris/cover.png">
-                <p class="city" style="color:#2684c1">PARIS</p>
-            </a>
-        </li>
-
-        <li id="rio">
-             <a ng-click="pathTo('book',{city:'rio'})" >
-                <img src="../deploy/deploy/assets/images/cities/rio/cover.png">
-                <p class="city" style="color:#c1873a">RIO DE<br>JANEIRO</p>
-            </a>
-        </li>
-
-        <li id="seoul">
-             <a ng-click="pathTo('book',{city:'seoul'})" >
-                <img src="../deploy/deploy/assets/images/cities/seoul/cover.png">
-                <p class="city" style="color:#7272b0">SEOUL</p>
-            </a>
-        </li>
-
-        <li id="shanghai">
-             <a ng-click="pathTo('book',{city:'shanghai'})" >
-                <img src="../deploy/deploy/assets/images/cities/shanghai/cover.png">
-                <p class="city" style="color:#02ac9f">SHANGHAI</p>
-            </a>
-        </li>
-
-        <li id="singapore">
-             <a ng-click="pathTo('book',{city:'singapore'})" >
-                <img src="../deploy/deploy/assets/images/cities/singapore/cover.png">
-                <p class="city" style="color:#abc549">SINGAPORE</p>
-            </a>
-        </li>
-
-        <li id="sydney">
-             <a ng-click="pathTo('book',{city:'sydney'})" >
-                <img src="../deploy/deploy/assets/images/cities/sydney/cover.png">
-                <p class="city" style="color:#00a0d5">SYDNEY</p>
-            </a>
-        </li>
-
-        <li id="sao-paulo">
-             <a ng-click="pathTo('book',{city:'sao-paulo'})" >
-                <img src="../deploy/deploy/assets/images/cities/sao-paulo/cover.png">
-                <p class="city" style="color:#00934f">SÃO<br>PAULO</p>
-            </a>
-        </li>
-
-        <li id="tokyo">
-             <a ng-click="pathTo('book',{city:'tokyo'})" >
-                <img src="../deploy/deploy/assets/images/cities/tokyo/cover.png">
-                <p class="city" style="color:#ed0088">TOKYO</p>
-            </a>
-        </li>
-
-        <li id="venice">
-             <a ng-click="pathTo('book',{city:'venice'})" >
-                <img src="../deploy/deploy/assets/images/cities/venice/cover.png">
-                <p class="city" style="color:#bd4f99">VENICE</p>
+        <li ng-repeat="(key,value) in books_array"  id='{{books_array[key].slug}}' >
+            <a ng-click="pathTo('book',{city:'{{books_array[key].slug}}'})" >
+                <img src='{{link_img_array[key]}}'>
+                <p class="city" style='color:{{colors_array[key]}}' html="books_array[key].title"></p>
             </a>
         </li>
 
 
-
-
-    </ul>
+           </ul>
 
 
 
@@ -173,22 +32,22 @@
 
 
 
-</div>
+       </div>
 
 
-    <div class="header-btn">
-        <a class="btnHeaderFirst" ng-click="pathTo('exceptionalcase')"  ng-mouseenter="arrowMouseOver('arrow-brown-first')" ng-mouseleave="arrowMouseOut('arrow-brown-first')">
-            <div class="arrow-brown-first"></div>
-            <p html="exceptional_case_btn_wording"></p>
-        </a>
+           <div class="header-btn">
+               <a class="btnHeaderFirst" ng-click="pathTo('exceptionalcase')"  ng-mouseenter="arrowMouseOver('arrow-brown-first')" ng-mouseleave="arrowMouseOut('arrow-brown-first')">
+                   <div class="arrow-brown-first"></div>
+                   <p html="exceptional_case_btn_wording"></p>
+               </a>
 
-        <a class="btnHeaderSecond" ng-click="pathTo('boxset')" ng-mouseenter="arrowMouseOver('arrow-brown-second')" ng-mouseleave="arrowMouseOut('arrow-brown-second')">
-            <div class="arrow-brown-second"></div>
-            <p html="box_set_btn_wording"></p>
-        </a>
-    </div>
+               <a class="btnHeaderSecond" ng-click="pathTo('boxset')" ng-mouseenter="arrowMouseOver('arrow-brown-second')" ng-mouseleave="arrowMouseOut('arrow-brown-second')">
+                   <div class="arrow-brown-second"></div>
+                   <p html="box_set_btn_wording"></p>
+               </a>
+           </div>
 
 
 
-</div>
+       </div>
 
