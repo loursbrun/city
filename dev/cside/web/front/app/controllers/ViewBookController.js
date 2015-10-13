@@ -73,7 +73,45 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
             $scope.book_imgs_8 = $scope.books_object[i].imgs[7] ;
             $scope.book_description = model.localized.labels_dictionaries[$scope.book_page].description ;
             $scope.book_sku = model.localized.labels_dictionaries[$scope.book_page].sku ;
-            $log.log("Localised:" +  $scope.book_description) ;
+            //$log.log("Localised:" +  $scope.book_description) ;
+
+
+
+            $scope.link_img_array = [];
+            $scope.link_img_array_temp = [];
+
+
+
+            $scope.link_img_array_temp.push($scope.book_imgs_1) ;
+            $scope.link_img_array_temp.push($scope.book_imgs_2) ;
+            $scope.link_img_array_temp.push($scope.book_imgs_3) ;
+            $scope.link_img_array_temp.push($scope.book_imgs_4) ;
+            $scope.link_img_array_temp.push($scope.book_imgs_5) ;
+            $scope.link_img_array_temp.push($scope.book_imgs_6) ;
+            $scope.link_img_array_temp.push($scope.book_imgs_7) ;
+            $scope.link_img_array_temp.push($scope.book_imgs_8) ;
+
+
+
+
+            $log.log("Array Link Img Slideshow:" +   $scope.link_img_array_temp) ;
+
+
+            for (var iter = 0; iter < $scope.link_img_array_temp.length; iter++) {
+                if($scope.link_img_array_temp[iter] == undefined) {
+                    $log.log("Undefined !!!!!!!!!!!");
+                    $scope.link_img_array_temp.pop();
+                }
+                //$scope.link_img_array[iter] = "../deploy/deploy/assets/images/" + $scope.link_img_array[iter]
+                else {
+                $scope.link_img_array.push("../deploy/deploy/assets/images/" + $scope.link_img_array_temp[iter]);
+                }
+            }
+            $scope.link_img_array_temp.pop();
+            $log.log("Array Link Img Temp:" +   $scope.link_img_array_temp) ;
+            $log.log("Array Link Img Slideshow:" +   $scope.link_img_array.length) ;
+
+
 
         }
 

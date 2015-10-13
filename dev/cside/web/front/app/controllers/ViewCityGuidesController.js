@@ -68,7 +68,7 @@ app.controller("ViewCityguidesController", ['$scope', '$log', 'DeviceDetector','
     }
 
     // Link IMG parse
-    for(var z = 0 ; z < i - 2 ; z++)
+    for(var z = 0 ; z < i -2  ; z++)
     {
         $scope.link_img_array[z] = "../deploy/deploy/assets/images/cities/"+ $scope.books_array[z + 2].slug +"/cover.png" ;
         console.log( $scope.link_img_array[z]);
