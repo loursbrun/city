@@ -226,10 +226,8 @@ app.directive('viewVideo', ['$log', '$window', 'AnimationModel', '$freeCasterUti
     {
 
 
-        $log.log("OOOOuuuuuuuuuuuuuuuuuuuuuuuuu");
-        $log.log("City : " + scope.currentCity);
 
-
+        //$log.log("City : " + scope.currentCity);
 
 
         // ID Freecaster in Localised.json
