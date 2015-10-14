@@ -138,6 +138,9 @@ html {
 
 .view-home {
   background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 .view-home .skip-btn {
   position: absolute;
@@ -180,20 +183,6 @@ html {
   top: 5%;
   width: 120px;
   text-align: left;
-}
-
-.view-video {
-  position: relative;
-  height: auto;
-  color: black;
-  background-color: black;
-}
-
-#fcplayer_wrapper {
-  position: absolute;
-  display: block;
-  height: 100%;
-  top: 50%;
 }
 
 .view-cityguides {
@@ -1031,6 +1020,9 @@ html {
 
 .view-video {
   background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 .view-video .skip-btn {
   position: absolute;
@@ -1077,18 +1069,6 @@ html {
 .phone .view-video .skip-btn {
   width: 170px;
   text-align: left;
-}
-
-.view-video {
-  position: relative;
-  height: 100%;
-  color: black;
-  background-color: black;
-}
-
-#fcplayer_wrapper {
-  position: absolute;
-  display: block;
 }
 
 .page #back-btn {

@@ -15,6 +15,9 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
     device.setLayout(DeviceDetector.LAYOUT_FILL);
 
 
+    $scope.currentCity = "home";
+
+
     // Wordings Localised
     $scope.skip_wording = model.localized.labels_dictionaries.common.skip ;
 
@@ -29,8 +32,8 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
     $scope.videoView = angular.element(document.querySelector(".view-video"));
     //  $scope.cfPlayerContainer =  angular.element(document.querySelector("#fcplayer_container"));
     //  $scope.videoHeight =  $scope.cfPlayerContainer.innerHeight();
-    $scope.windowHeight = $("body").innerHeight();
-    $scope.windowWidth = $("body").innerWidth();
+    //$scope.windowHeight = $("body").innerHeight();
+    //$scope.windowWidth = $("body").innerWidth();
 
 
 
@@ -38,7 +41,7 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
 
 
     // Center the video
-    $log.log("Hauteur Body :", $scope.windowHeight);
+  /*  $log.log("Hauteur Body :", $scope.windowHeight);
     $log.log("Largeur Body :", $scope.windowWidth);
     var videoHeight = $scope.windowWidth / 2.5;
     $log.log("hauteur Video :", videoHeight);
@@ -47,7 +50,7 @@ app.controller("ViewHomeController", ['$scope', '$window', '$log', 'DeviceDetect
     var margintopVideo = $scope.windowHeight / 2 - videoHeight / 2 - 100;
     TweenMax.to($scope.videoView, 0, {delay: 0, y: margintopVideo, force3D: true});
 
-
+*/
 
 
 

@@ -233,6 +233,7 @@ app.directive('viewVideo', ['$log', '$window', 'AnimationModel', '$freeCasterUti
 
 
         // ID Freecaster in Localised.json
+       // scope.video_id = $model.localized.labels_dictionaries[scope.currentCity].video;
         scope.video_id = $model.localized.labels_dictionaries[scope.currentCity].video;
         $log.log("Video_id : " + scope.video_id);
 
@@ -642,21 +643,14 @@ app.directive('viewVideo', ['$log', '$window', 'AnimationModel', '$freeCasterUti
         };
         function layout()
         {
+
+
+            $log.log("eeee",element.prop("offsetHeight"));
             if (scope.player)
             {
-                var currentHeight;
-                var currentWidth;
-                if($device.tablet() != null)
-                {
-                    currentWidth = $window.innerWidth;
-                    currentHeight = $window.innerHeight - 100;
-                }
-                else
-                {
-                    currentWidth = element.prop("offsetWidth");
-                    currentHeight = $window.innerHeight - 120;
-                }
-                scope.player.api.resize(currentWidth,currentHeight);
+
+                scope.player.api.resize(element.prop("offsetWidth"),element.prop("offsetHeight"));
+
             }
 
         }

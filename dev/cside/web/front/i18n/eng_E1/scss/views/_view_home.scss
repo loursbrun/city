@@ -6,9 +6,9 @@
 {
 
   background-color: black;
-  //position: absolute;
-  //height: 100%;
-  //width: 100%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 
 
   .skip-btn {
@@ -80,24 +80,4 @@
 }
 
 
-.view-video
-{
-  position: relative;
 
-  //width: 100%;
-  height: auto;
-  color: black;
-  background-color: black;
-
-
-}
-
-
-#fcplayer_wrapper {
-
-  position: absolute;
-  display: block;
-  height: 100%;
-  top: 50%;
-
-}
