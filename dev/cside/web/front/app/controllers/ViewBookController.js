@@ -178,7 +178,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
     setInterval(function() {
         i = i + 1;
         if (i > ($scope.book_img_number )) {i = 1}
-       // $log.log("#slide"+ [i]) ;
+        $log.log("TIC TAC") ;
 
         TweenMax.to($scope.slide1,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
         TweenMax.to($scope.slide2,$scope.timer_slideshow_animation,{opacity:0, force3D:true});
@@ -197,6 +197,21 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
     }, $scope.timer_slideshow_speed * 1000);
+
+
+    //some drifting may be introduced between function calls
+    function run() {
+        console.log("tick");
+        delayedCall(1, run)
+    }
+
+
+
+
+
+
+
+
 
 
 // Book inversed layout
@@ -253,7 +268,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 app.directive('imgPreload', function($q) {
 
-   
+
     return {
         restrict: 'E',
         link: function(scope, element, attrs, tabsCtrl) {
