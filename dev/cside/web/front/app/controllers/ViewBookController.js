@@ -94,7 +94,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 
 
 
-            $log.log("Array Link Img Slideshow:" +   $scope.link_img_array_temp) ;
+         //   $log.log("Array Link Img Slideshow:" +   $scope.link_img_array_temp) ;
 
 
             for (var iter = 0; iter < $scope.link_img_array_temp.length; iter++) {
@@ -108,8 +108,8 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
                 }
             }
             $scope.link_img_array_temp.pop();
-            $log.log("Array Link Img Temp:" +   $scope.link_img_array_temp) ;
-            $log.log("Array Link Img Slideshow:" +   $scope.link_img_array.length) ;
+          //  $log.log("Array Link Img Temp:" +   $scope.link_img_array_temp) ;
+          //  $log.log("Array Link Img Slideshow:" +   $scope.link_img_array.length) ;
 
 
 
@@ -202,7 +202,7 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 // Book inversed layout
 
 
-        $log.log("Inversed:" + $scope.book_inversed_layout );
+      //  $log.log("Inversed:" + $scope.book_inversed_layout );
 
 
 
@@ -220,8 +220,80 @@ app.controller("ViewBookController", ['$scope', '$log', 'DeviceDetector','Animat
 // Scroll auto to top
     $scope.scrollTop();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Test image preload
+
+    var passImg1 = "../deploy/deploy/assets/images/" +  $scope.book_imgs_1 ;
+    $log.log("img1 path : " +  passImg1) ;
+
+
+
+
+
+
+
+
 }]);
 
+
+
+
+app.directive('imgPreload', function($q) {
+
+   
+    return {
+        restrict: 'E',
+        link: function(scope, element, attrs, tabsCtrl) {
+            scope.preload = function(url) {
+                var deffered = $q.defer(),
+                    image = new Image();
+
+                image.src = url;
+
+                if (image.complete) {
+
+                    deffered.resolve();
+
+                } else {
+
+                    image.addEventListener('load', function() {
+                        deffered.resolve();
+                    });
+
+                    image.addEventListener('error', function() {
+                        deffered.reject();
+                    });
+                }
+
+                return deffered.promise;
+            }
+
+         //   element.hide();
+
+            scope.preload(attrs.url).then(function(){
+                console.log("Preload OKKKKKkkkkkkkkkkkkkkkkk");
+                element.css({
+                    "background-image": "url('" + attrs.url + "')"
+                });
+                element.fadeIn();
+            })
+
+        }
+    };
+});
 
 
 
